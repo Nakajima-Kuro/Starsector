@@ -1,0 +1,60 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 22,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "swp_boss_atlas",
+    "hullMods": ["expanded_deck_crew","targetingunit","missleracks","eccm"],
+    "permaMods": ["targetingunit","missleracks","eccm"],
+    "sMods": ["targetingunit","missleracks","eccm"],
+    "variantId": "swp_boss_atlas_cus",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "heavymauler"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "harpoon",
+                "WS0008": "harpoon",
+                "WS0009": "harpoon",
+                "WS0011": "harpoon",
+                "WS0012": "heatseeker",
+                "WS0013": "harpoon",
+                "WS0014": "heatseeker",
+                "WS0015": "harpoon",
+                "WS0016": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "heavyac",
+                "WS0002": "heavyac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "flak"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "vulcan",
+                "WS0006": "vulcan"
+            }
+        }
+    ],
+    "wings": [
+        "swp_falx_wing",
+        "thunder_wing",
+        "thunder_wing",
+        "thunder_wing"
+    ]
+}

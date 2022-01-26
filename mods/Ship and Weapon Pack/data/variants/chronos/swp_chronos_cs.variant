@@ -1,0 +1,63 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 13,
+    "fluxVents": 40,
+    "goalVariant": true,
+    "hullId": "swp_chronos",
+    "hullMods": [
+        "targetingunit",
+        "converted_hangar"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "swp_chronos_cs",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "hil"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "salamanderpod",
+                "WS0006": "salamanderpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "taclaser",
+                "WS0009": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ionbeam",
+                "WS0004": "ionbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "heavyburst",
+                "WS0007": "heavyburst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "pdburst",
+                "WS0011": "pdburst",
+                "WS0012": "pdburst"
+            }
+        }
+    ],
+    "wings": ["broadsword_wing"]
+}

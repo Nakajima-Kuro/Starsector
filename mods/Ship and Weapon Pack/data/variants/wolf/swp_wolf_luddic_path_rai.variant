@@ -1,0 +1,37 @@
+{
+    "displayName": "Raider",
+    "fluxCapacitors": 4,
+    "fluxVents": 10,
+    "hullId": "swp_wolf_luddic_path",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "swp_wolf_luddic_path_rai",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "amblaster"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 005": "sabot",
+                "WS 006": "sabot"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "heavyac"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "pdburst",
+                "WS 003": "pdburst"
+            }
+        }
+    ]
+}

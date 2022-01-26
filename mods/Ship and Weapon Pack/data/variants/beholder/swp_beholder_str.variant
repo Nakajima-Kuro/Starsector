@@ -1,0 +1,37 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 4,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "swp_beholder",
+    "hullMods": [
+        "advancedoptics",
+        "unstable_injector"
+    ],
+    "permaMods": [],
+    "variantId": "swp_beholder_str",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "swp_lightphaselance",
+                "WS0004": "swp_lightphaselance",
+                "WS0005": "swp_lightphaselance"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "typhoon",
+                "WS0002": "typhoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "lrpdlaser"}
+        }
+    ]
+}

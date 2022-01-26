@@ -1,0 +1,50 @@
+{
+    "displayName": "Q-Ship",
+    "fluxCapacitors": 0,
+    "fluxVents": 14,
+    "goalVariant": true,
+    "hullId": "swp_circe",
+    "hullMods": ["converted_hangar"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "swp_circe_qs",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "taclaser",
+                "WS0004": "taclaser",
+                "WS0005": "taclaser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0006": "swp_iontorpedo",
+                "WS0007": "swp_iontorpedo",
+                "WS0008": "swp_iontorpedo",
+                "WS0009": "swp_iontorpedo"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "taclaser",
+                "WS0011": "taclaser",
+                "WS0012": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "heavyburst",
+                "WS0002": "heavyburst"
+            }
+        }
+    ],
+    "wings": ["swp_hexblade_wing"]
+}

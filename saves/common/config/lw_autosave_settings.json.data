@@ -1,0 +1,9 @@
+{
+   "enableAutosaves": false,
+   "forceSaveAfterMarketTransactions": false,
+   "forceSaveAfterPlayerBattles": false,
+   "minutesBeforeForcedAutosave": 30,
+   "minutesBetweenSubsequentWarnings": 5,
+   "minutesWithoutSaveBeforeWarning": 15,
+   "saveKey": 116
+}

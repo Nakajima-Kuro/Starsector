@@ -1,0 +1,250 @@
+{
+  "bounds": [
+    94,
+    8,
+    92.5,
+    24.5,
+    46.5,
+    26.5,
+    46,
+    39,
+    26,
+    46,
+    2,
+    17.5,
+    -33,
+    37,
+    -48.5,
+    30.5,
+    -77.5,
+    34,
+    -76,
+    14,
+    -71.5,
+    0,
+    -76,
+    -14,
+    -77.5,
+    -34,
+    -48.5,
+    -30.5,
+    -33,
+    -37,
+    2,
+    -17.5,
+    26,
+    -46,
+    46,
+    -39,
+    46.5,
+    -26.5,
+    92.5,
+    -24.5,
+    94,
+    -8,
+    55,
+    -6.5,
+    55,
+    6.5
+  ],
+  "center": [
+    47,
+    79
+  ],
+  "collisionRadius": 140.111557,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 64,
+      "location": [
+        -79,
+        29
+      ],
+      "style": "MIDLINE",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 64,
+      "location": [
+        -78,
+        19
+      ],
+      "style": "MIDLINE",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 64,
+      "location": [
+        -78,
+        -19
+      ],
+      "style": "MIDLINE",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 64,
+      "location": [
+        -79,
+        -29
+      ],
+      "style": "MIDLINE",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 48,
+      "location": [
+        -74,
+        3.5
+      ],
+      "style": "MIDLINE",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 48,
+      "location": [
+        -74,
+        -3.5
+      ],
+      "style": "MIDLINE",
+      "width": 10
+    }
+  ],
+  "height": 177,
+  "hullId": "swp_boss_sunder",
+  "hullName": "Fracture",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    11,
+    0
+  ],
+  "shieldRadius": 128,
+  "spriteName": "graphics/swp/ships/boss/swp_boss_sunder.png",
+  "style": "MIDLINE",
+  "viewOffset": 100,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS 001",
+      "locations": [
+        87.5,
+        14.5
+      ],
+      "mount": "HARDPOINT",
+      "position": [
+        51,
+        80
+      ],
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS 002",
+      "locations": [
+        38,
+        32
+      ],
+      "mount": "HARDPOINT",
+      "position": [
+        121,
+        50
+      ],
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS 003",
+      "locations": [
+        43,
+        0
+      ],
+      "mount": "HARDPOINT",
+      "position": [
+        131,
+        0
+      ],
+      "size": "LARGE",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS 004",
+      "locations": [
+        38,
+        -32
+      ],
+      "mount": "HARDPOINT",
+      "position": [
+        121,
+        -50
+      ],
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS 005",
+      "locations": [
+        87.5,
+        -13.5
+      ],
+      "mount": "HARDPOINT",
+      "position": [
+        51,
+        -75
+      ],
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 125,
+      "arc": 215,
+      "id": "WS 006",
+      "locations": [
+        -34,
+        23
+      ],
+      "mount": "TURRET",
+      "position": [
+        -22,
+        65
+      ],
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -125,
+      "arc": 215,
+      "id": "WS 007",
+      "locations": [
+        -34,
+        -23
+      ],
+      "mount": "TURRET",
+      "position": [
+        -24,
+        -65
+      ],
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 94
+}

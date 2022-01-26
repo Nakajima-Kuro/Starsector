@@ -1,0 +1,18 @@
+{
+    "baseHullId":"heron",
+    "skinHullId":"swp_heron_lions_guard",
+    "hullName":"Heron (LG)",
+    "descriptionId":"heron",
+    "descriptionPrefix":"This ship was built to the exacting specifications demanded by the Lion's Guard, environmentally-hardened to survive the harsh fires of Askonia.",
+    "tags":["swp_LG_bp"],
+    "tech":"Lion's Guard",
+    "spriteName":"graphics/swp/ships/heron/midtech2x_cv_lions_guard.png",
+    "baseValueMult":1.25,
+    "removeWeaponSlots":[],         # ids
+    "removeEngineSlots":[],         # indices, as engine slots have no id in the .ship file
+    "removeBuiltInMods":[],         # hullmod ids
+    "removeBuiltInWeapons":[],      # weapon slot ids
+    "builtInMods":["solar_shielding"],
+    "builtInWeapons":{
+    },
+}

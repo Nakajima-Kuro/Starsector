@@ -1,0 +1,60 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 20,
+    "fluxVents": 46,
+    "goalVariant": true,
+    "hullId": "swp_chronos",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "unstable_injector"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "swp_chronos_ass",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "plasma"}
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "phasecl",
+                "WS0006": "phasecl"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "pulselaser",
+                "WS0003": "pulselaser",
+                "WS0004": "pulselaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "swp_flareburst"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "lrpdlaser",
+                "WS0009": "lrpdlaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "swp_microblaster",
+                "WS0011": "swp_microblaster",
+                "WS0012": "swp_microblaster"
+            }
+        }
+    ]
+}

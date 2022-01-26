@@ -1,0 +1,31 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 2,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "swp_vortex",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "swp_vortex_sta",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "swp_lightninggun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "taclaser",
+                "WS0003": "taclaser",
+                "WS0004": "taclaser",
+                "WS0005": "taclaser"
+            }
+        }
+    ],
+    "wings": [
+        "trident_wing",
+        "broadsword_wing"
+    ]
+}

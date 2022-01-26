@@ -1,0 +1,27 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 2,
+    "fluxVents": 10,
+    "hullId": "swp_hecate",
+    "hullMods": ["fluxdistributor"],
+    "permaMods": [],
+    "variantId": "swp_hecate_att",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "swp_lightphaselance",
+                "WS0002": "swp_lightphaselance"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "pdlaser",
+                "WS0004": "pdlaser"
+            }
+        }
+    ]
+}

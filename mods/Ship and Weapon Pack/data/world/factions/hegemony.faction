@@ -1,0 +1,35 @@
+{
+    "hullFrequency":{
+        "hulls":{
+            "swp_conquest_xiv":0,
+            "swp_nautilus":0,
+            "swp_liberator":0.6, # Onslaughts should be more common
+        },
+    },
+    "knownShips":{
+        "hulls":[
+            "swp_eagle_black",
+            "swp_eagle_white",
+            "swp_vindicator_o",
+            "swp_liberator",
+        ],
+    },
+    "priorityShips":{
+        "tags":[],
+        "hulls":[
+            "swp_liberator",
+        ],
+    },
+    "knownFighters":{
+        "fighters":[
+            "swp_drake_wing",
+        ],
+    },
+    "knownWeapons":{
+        "weapons":[
+            "swp_inferno",
+            "swp_trebuchet",
+            "swp_tripleflak",
+        ],
+    },
+},

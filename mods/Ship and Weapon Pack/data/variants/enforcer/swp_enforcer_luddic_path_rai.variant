@@ -1,0 +1,41 @@
+{
+    "displayName": "Raider",
+    "fluxCapacitors": 14,
+    "fluxVents": 20,
+    "hullId": "swp_enforcer_luddic_path",
+    "hullMods": [
+        "reinforcedhull",
+        "fluxdistributor"
+    ],
+    "permaMods": [],
+    "variantId": "swp_enforcer_luddic_path_rai",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "chaingun",
+                "WS 004": "chaingun"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 006": "hammer",
+                "WS 007": "hammer",
+                "WS 008": "hammer",
+                "WS 009": "hammer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "heavymg",
+                "WS 003": "heavymg",
+                "WS 005": "heavymg"
+            }
+        }
+    ]
+}

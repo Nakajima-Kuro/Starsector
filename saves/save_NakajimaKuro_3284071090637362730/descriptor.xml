@@ -1,0 +1,934 @@
+<?xml version="1.0" ?>
+<SaveGameData z="1">
+<portraitName>graphics/portraits/portrait_luddic02.png</portraitName>
+<characterName>Nakajima Kuro</characterName>
+<saveFileVersion>0.5</saveFileVersion>
+<characterLevel>15</characterLevel>
+<compressed>false</compressed>
+<isIronMode>false</isIronMode>
+<difficulty>normal</difficulty>
+<gameDate z="2">
+<secondsPerDay>10.0</secondsPerDay>
+<timestamp>-55340078864000</timestamp>
+</gameDate>
+<saveDate z="3">2022-01-25 16:03:38.738 UTC</saveDate>
+<allModsEverEnabled z="4">
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="5">
+<spec z="6">
+<id>lw_autosave</id>
+<desc>Warns you when you haven't saved in a while. Can optionally force an autosave after battles and market transactions, or if enough time has passed since the last save. Configurable using autosave_settings.json.</desc>
+<name>Autosave</name>
+<gameVersion z="7">
+<major>0.95</major>
+<minor>8</minor>
+<patch></patch>
+<string>0.95a-RC8</string>
+</gameVersion>
+<versionInfo z="8">
+<major>1</major>
+<minor>1c</minor>
+<patch></patch>
+<string>1.1c</string>
+</versionInfo>
+<author>LazyWizard</author>
+<path>D:\Maya\Starsector\starsector-core\..\mods\Autosave</path>
+<dirName>Autosave</dirName>
+<totalConversion>false</totalConversion>
+<utility>true</utility>
+<modPluginClassName>org.lazywizard.autosave.AutosaveModPlugin</modPluginClassName>
+<fullOverrides z="9"></fullOverrides>
+<jars z="10">
+<st>jars/lw_Autosave.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="11"></dependencies>
+</spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="12">
+<spec z="13">
+<id>timid_admins</id>
+<desc>QoL for Late Game Colony Management. Simple as.</desc>
+<name>Better Colonies</name>
+<gameVersion z="14">
+<major>0.95</major>
+<minor>14</minor>
+<patch></patch>
+<string>0.95a-RC14</string>
+</gameVersion>
+<versionInfo z="15">
+<major>1</major>
+<minor>63</minor>
+<patch></patch>
+<string>1.63</string>
+</versionInfo>
+<author>Techpriest</author>
+<path>D:\Maya\Starsector\starsector-core\..\mods\Better Colonies</path>
+<dirName>Better Colonies</dirName>
+<totalConversion>false</totalConversion>
+<utility>false</utility>
+<modPluginClassName>data.scripts.GDModPlugin</modPluginClassName>
+<fullOverrides z="16"></fullOverrides>
+<jars z="17">
+<st>jar/Bettercolonies.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="18"></dependencies>
+</spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="19">
+<spec z="20">
+<id>CSP</id>
+<desc>Ships and weapons for your combat &amp; campaign shananigans by Cebby.</desc>
+<name>Cebby Ship Pack</name>
+<gameVersion z="21">
+<major>0.95</major>
+<minor>15</minor>
+<patch></patch>
+<string>0.95a-RC15</string>
+</gameVersion>
+<versionInfo z="22">
+<major>1</major>
+<minor>1</minor>
+<patch>1</patch>
+<string>1.1.1</string>
+</versionInfo>
+<author>Cebby</author>
+<path>D:\Maya\Starsector\starsector-core\..\mods\Cebby-Ship-Pack-1.1.3</path>
+<dirName>Cebby-Ship-Pack-1.1.3</dirName>
+<totalConversion>false</totalConversion>
+<utility>false</utility>
+<fullOverrides z="23"></fullOverrides>
+<jars z="24"></jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="25"></dependencies>
+</spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="26">
+<spec z="27">
+<id>chatter</id>
+<desc>talky-man broke thog's tusk. TALKY-MAN BROKE THOG'S TUSK!!</desc>
+<name>Combat Chatter</name>
+<gameVersion z="28">
+<major>0.95</major>
+<minor>15</minor>
+<patch></patch>
+<string>0.95a-RC15</string>
+</gameVersion>
+<versionInfo z="29">
+<major>1</major>
+<minor>11</minor>
+<patch>4</patch>
+<string>1.11.4</string>
+</versionInfo>
+<author>Histidine</author>
+<path>D:\Maya\Starsector\starsector-core\..\mods\Combat Chatter</path>
+<dirName>Combat Chatter</dirName>
+<totalConversion>false</totalConversion>
+<utility>true</utility>
+<modPluginClassName>org.histidine.chatter.scripts.ChatterModPlugin</modPluginClassName>
+<fullOverrides z="30"></fullOverrides>
+<jars z="31">
+<st>jars/CombatChatter.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="32">
+<com.fs.starfarer.launcher.ModManager_-ModDependency z="33">
+<id>lw_lazylib</id>
+<name>LazyLib</name>
+<version z="34">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+</version>
+</com.fs.starfarer.launcher.ModManager_-ModDependency>
+<com.fs.starfarer.launcher.ModManager_-ModDependency z="35">
+<id>MagicLib</id>
+<name>MagicLib</name>
+<version z="36">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+</version>
+</com.fs.starfarer.launcher.ModManager_-ModDependency>
+</dependencies>
+</spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="37">
+<spec z="38">
+<id>lw_console</id>
+<desc>An in-game developer's console, by default summoned with control+backspace.
+
+For a complete list of commands enter 'help'. For more information on a specific command enter 'help &lt;command&gt;'. Enter 'settings' to customize the console's appearance and behavior, including the key used to summon it.
+
+This should be compatible with all mods and doesn't require a new game.</desc>
+<name>Console Commands</name>
+<gameVersion z="39">
+<major>0.95</major>
+<minor>1</minor>
+<patch>6</patch>
+<string>0.95.1a-RC6</string>
+</gameVersion>
+<versionInfo z="40">
+<major>2021</major>
+<minor>12</minor>
+<patch>25</patch>
+<string>2021.12.25</string>
+</versionInfo>
+<author>LazyWizard</author>
+<path>D:\Maya\Starsector\starsector-core\..\mods\Console Commands</path>
+<dirName>Console Commands</dirName>
+<totalConversion>false</totalConversion>
+<utility>true</utility>
+<modPluginClassName>org.lazywizard.console.ConsoleModPlugin</modPluginClassName>
+<fullOverrides z="41"></fullOverrides>
+<jars z="42">
+<st>jars/lw_Console.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="43">
+<com.fs.starfarer.launcher.ModManager_-ModDependency z="44">
+<id>lw_lazylib</id>
+<name>LazyLib</name>
+<version z="45">
+<major>2</major>
+<minor>6</minor>
+<patch></patch>
+<string>2.6</string>
+</version>
+</com.fs.starfarer.launcher.ModManager_-ModDependency>
+</dependencies>
+</spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="46">
+<spec z="47">
+<id>diableavionics</id>
+<desc>Claiming ownership over the possessions of millions seems to be a bold claim, but is one the Diable Avionics Corporation intends to enforce, with deadly means if necessary.</desc>
+<name>Diable Avionics</name>
+<gameVersion z="48">
+<major>0.95</major>
+<minor>1</minor>
+<patch>3</patch>
+<string>0.95.1a-RC3</string>
+</gameVersion>
+<versionInfo z="49">
+<major>2</major>
+<minor>64</minor>
+<patch></patch>
+<string>2.64</string>
+</versionInfo>
+<author>Tartiflette, originaly created by Flashfrozen, with the participation of Debido.</author>
+<path>D:\Maya\Starsector\starsector-core\..\mods\DIABLEAVIONICS</path>
+<dirName>DIABLEAVIONICS</dirName>
+<totalConversion>false</totalConversion>
+<utility>false</utility>
+<modPluginClassName>data.scripts.DAModPlugin</modPluginClassName>
+<fullOverrides z="50"></fullOverrides>
+<jars z="51">
+<st>jars/Diable_Avionics.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="52">
+<com.fs.starfarer.launcher.ModManager_-ModDependency z="53">
+<id>lw_lazylib</id>
+<name>LazyLib</name>
+<version z="54">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+</version>
+</com.fs.starfarer.launcher.ModManager_-ModDependency>
+<com.fs.starfarer.launcher.ModManager_-ModDependency z="55">
+<id>MagicLib</id>
+<name>MagicLib</name>
+<version z="56">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+</version>
+</com.fs.starfarer.launcher.ModManager_-ModDependency>
+</dependencies>
+</spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="57">
+<spec z="58">
+<id>sun_hyperdrive</id>
+<desc>Adds a campaign ability that essentially allows you to teleport</desc>
+<name>Hyperdrive</name>
+<gameVersion z="59">
+<major>0.95</major>
+<minor>15</minor>
+<patch></patch>
+<string>0.95a-RC15</string>
+</gameVersion>
+<versionInfo z="60">
+<major>2</major>
+<minor>1</minor>
+<patch>1</patch>
+<string>2.1.1</string>
+</versionInfo>
+<author>Sundog</author>
+<path>D:\Maya\Starsector\starsector-core\..\mods\Hyperdrive</path>
+<dirName>Hyperdrive</dirName>
+<totalConversion>false</totalConversion>
+<utility>false</utility>
+<modPluginClassName>hyperdrive.ModPlugin</modPluginClassName>
+<fullOverrides z="61"></fullOverrides>
+<jars z="62">
+<st>jars/Hyperdrive.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="63"></dependencies>
+</spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="64">
+<spec z="65">
+<id>IndEvo</id>
+<desc>Expands the available campaign content through addition of buildings, functions and exploration content.</desc>
+<name>Industrial.Evolution</name>
+<gameVersion z="66">
+<major>0.95</major>
+<minor>1</minor>
+<patch></patch>
+<string>0.95.1a</string>
+</gameVersion>
+<versionInfo z="67">
+<major>2</major>
+<minor>2</minor>
+<patch>h</patch>
+<string>2.2.h</string>
+</versionInfo>
+<author>SirHartley</author>
+<path>D:\Maya\Starsector\starsector-core\..\mods\Industrial.Evolution2.2.h</path>
+<dirName>Industrial.Evolution2.2.h</dirName>
+<totalConversion>false</totalConversion>
+<utility>false</utility>
+<modPluginClassName>com.fs.starfarer.api.plugins.IndEvo_modPlugin</modPluginClassName>
+<fullOverrides z="68"></fullOverrides>
+<jars z="69">
+<st>jars/IndEvo.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="70"></dependencies>
+</spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="71">
+<spec z="72">
+<id>kadur_remnant</id>
+<desc>Watchers guide you, convert. Integrates with Vayra's Sector for additional content. Requires LazyLib and MagicLib.</desc>
+<name>Kadur Remnant</name>
+<gameVersion z="73">
+<major>0.95</major>
+<minor>9</minor>
+<patch></patch>
+<string>0.95a-RC9</string>
+</gameVersion>
+<versionInfo z="74">
+<major>3</major>
+<minor>2</minor>
+<patch>3</patch>
+<string>3.2.3</string>
+</versionInfo>
+<author>Vayra</author>
+<path>D:\Maya\Starsector\starsector-core\..\mods\Kadur Remnant</path>
+<dirName>Kadur Remnant</dirName>
+<totalConversion>false</totalConversion>
+<utility>false</utility>
+<modPluginClassName>data.scripts.KadurModPlugin</modPluginClassName>
+<fullOverrides z="75"></fullOverrides>
+<jars z="76">
+<st>jars/KadurRemnant.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="77"></dependencies>
+</spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="78">
+<spec z="79">
+<id>lw_lazylib</id>
+<desc>A collection of classes to aid modding. Not a mod in itself, but required by certain other mods.</desc>
+<name>LazyLib</name>
+<gameVersion z="80">
+<major>0.95</major>
+<minor>1</minor>
+<patch>3</patch>
+<string>0.95.1a-RC3</string>
+</gameVersion>
+<versionInfo z="81">
+<major>2</major>
+<minor>7b</minor>
+<patch></patch>
+<string>2.7b</string>
+</versionInfo>
+<author>LazyWizard</author>
+<path>D:\Maya\Starsector\starsector-core\..\mods\LazyLib</path>
+<dirName>LazyLib</dirName>
+<totalConversion>false</totalConversion>
+<utility>true</utility>
+<modPluginClassName>org.lazywizard.lazylib.LazyLib</modPluginClassName>
+<fullOverrides z="82"></fullOverrides>
+<jars z="83">
+<st>jars/LazyLib.jar</st>
+<st>jars/LazyLib-Kotlin.jar</st>
+<st>jars/lib/Kotlin-Runtime.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="84"></dependencies>
+</spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="85">
+<spec z="86">
+<id>leadingPip</id>
+<desc>Adds a target leading pip.</desc>
+<name>Leading Pip</name>
+<gameVersion z="87">
+<major>0.95</major>
+<minor>1</minor>
+<patch>5</patch>
+<string>0.95.1a-RC5</string>
+</gameVersion>
+<versionInfo z="88">
+<major>1</major>
+<minor>9</minor>
+<patch>1</patch>
+<string>1.9.1</string>
+</versionInfo>
+<author>DarkRevenant</author>
+<path>D:\Maya\Starsector\starsector-core\..\mods\Leading Pip</path>
+<dirName>Leading Pip</dirName>
+<totalConversion>false</totalConversion>
+<utility>true</utility>
+<modPluginClassName>data.scripts.TLIModPlugin</modPluginClassName>
+<fullOverrides z="89"></fullOverrides>
+<jars z="90">
+<st>jars/LeadingPip.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="91">
+<com.fs.starfarer.launcher.ModManager_-ModDependency z="92">
+<id>lw_lazylib</id>
+<name>LazyLib</name>
+<version z="93">
+<major>2</major>
+<minor>7b</minor>
+<patch></patch>
+<string>2.7b</string>
+</version>
+</com.fs.starfarer.launcher.ModManager_-ModDependency>
+</dependencies>
+</spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="94">
+<spec z="95">
+<id>MagicLib</id>
+<desc>A collection of classes to aid modding. Not a mod in itself, but required by other mods.</desc>
+<name>MagicLib</name>
+<gameVersion z="96">
+<major>0.95</major>
+<minor>1</minor>
+<patch>6</patch>
+<string>0.95.1a-RC6</string>
+</gameVersion>
+<versionInfo z="97">
+<major>0.41</major>
+<minor></minor>
+<patch></patch>
+<string>0.41</string>
+</versionInfo>
+<author>Modding Community: Dark.Revenant, LazyWizard, Nicke, Originem, Rubi, Schaf-Unschaf, Snrasha, Tartiflette, Wisp, Wyvern...</author>
+<path>D:\Maya\Starsector\starsector-core\..\mods\MagicLib</path>
+<dirName>MagicLib</dirName>
+<totalConversion>false</totalConversion>
+<utility>true</utility>
+<modPluginClassName>data.scripts.Magic_modPlugin</modPluginClassName>
+<fullOverrides z="98"></fullOverrides>
+<jars z="99">
+<st>jars/MagicLib.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="100">
+<com.fs.starfarer.launcher.ModManager_-ModDependency z="101">
+<id>lw_lazylib</id>
+<name>LazyLib</name>
+<version z="102">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+</version>
+</com.fs.starfarer.launcher.ModManager_-ModDependency>
+</dependencies>
+</spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="103">
+<spec z="104">
+<id>nexerelin</id>
+<desc>Join a faction and conquer the Sector!</desc>
+<name>Nexerelin</name>
+<gameVersion z="105">
+<major>0.95</major>
+<minor>1</minor>
+<patch>5</patch>
+<string>0.95.1a-RC5</string>
+</gameVersion>
+<versionInfo z="106">
+<major>0.10</major>
+<minor>3i</minor>
+<patch></patch>
+<string>0.10.3i</string>
+</versionInfo>
+<author>Histidine (original by Zaphide)</author>
+<path>D:\Maya\Starsector\starsector-core\..\mods\Nexerelin</path>
+<dirName>Nexerelin</dirName>
+<totalConversion>false</totalConversion>
+<utility>false</utility>
+<modPluginClassName>exerelin.plugins.ExerelinModPlugin</modPluginClassName>
+<fullOverrides z="107"></fullOverrides>
+<jars z="108">
+<st>jars/ExerelinCore.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="109">
+<com.fs.starfarer.launcher.ModManager_-ModDependency z="110">
+<id>lw_lazylib</id>
+<name>LazyLib</name>
+<version z="111">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+</version>
+</com.fs.starfarer.launcher.ModManager_-ModDependency>
+<com.fs.starfarer.launcher.ModManager_-ModDependency z="112">
+<id>MagicLib</id>
+<name>MagicLib</name>
+<version z="113">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+</version>
+</com.fs.starfarer.launcher.ModManager_-ModDependency>
+</dependencies>
+</spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="114">
+<spec z="115">
+<id>tahlan_scalartech</id>
+<desc>A small faction at the edge of the core worlds with an iron will to defend their people.</desc>
+<name>ScalarTech Solutions</name>
+<gameVersion z="116">
+<major>0.95</major>
+<minor>10</minor>
+<patch></patch>
+<string>0.95a-RC10</string>
+</gameVersion>
+<versionInfo z="117">
+<major>0.8</major>
+<minor></minor>
+<patch></patch>
+<string>0.8</string>
+</versionInfo>
+<author>Nia Tahl</author>
+<path>D:\Maya\Starsector\starsector-core\..\mods\tahlan-scalartech</path>
+<dirName>tahlan-scalartech</dirName>
+<totalConversion>false</totalConversion>
+<utility>false</utility>
+<modPluginClassName>data.scripts.tahlan_ScalarModPlugin</modPluginClassName>
+<fullOverrides z="118"></fullOverrides>
+<jars z="119">
+<st>jars/tahlan-scalartech.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="120">
+<com.fs.starfarer.launcher.ModManager_-ModDependency z="121">
+<id>lw_lazylib</id>
+<name>LazyLib</name>
+<version z="122">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+</version>
+</com.fs.starfarer.launcher.ModManager_-ModDependency>
+<com.fs.starfarer.launcher.ModManager_-ModDependency z="123">
+<id>MagicLib</id>
+<name>MagicLib</name>
+<version z="124">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+</version>
+</com.fs.starfarer.launcher.ModManager_-ModDependency>
+</dependencies>
+</spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="125">
+<spec z="126">
+<id>swp</id>
+<desc>Adds high-quality ships and weapons that fill missing roles in Starsector. This mod is meant to look and feel like vanilla Starsector, enhancing your experience with the game. This mod also includes the International Bounty Board (IBB), a series of difficult boss-fight bounty missions featuring unique ships to face off against.</desc>
+<name>Ship/Weapon Pack</name>
+<gameVersion z="127">
+<major>0.95</major>
+<minor>1</minor>
+<patch>6</patch>
+<string>0.95.1a-RC6</string>
+</gameVersion>
+<versionInfo z="128">
+<major>1</major>
+<minor>13</minor>
+<patch>0</patch>
+<string>1.13.0</string>
+</versionInfo>
+<author>DarkRevenant</author>
+<path>D:\Maya\Starsector\starsector-core\..\mods\Ship and Weapon Pack</path>
+<dirName>Ship and Weapon Pack</dirName>
+<totalConversion>false</totalConversion>
+<utility>false</utility>
+<modPluginClassName>data.scripts.SWPModPlugin</modPluginClassName>
+<fullOverrides z="129"></fullOverrides>
+<jars z="130">
+<st>jars/SWP.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="131">
+<com.fs.starfarer.launcher.ModManager_-ModDependency z="132">
+<id>lw_lazylib</id>
+<name>LazyLib</name>
+<version z="133">
+<major>2</major>
+<minor>7b</minor>
+<patch></patch>
+<string>2.7b</string>
+</version>
+</com.fs.starfarer.launcher.ModManager_-ModDependency>
+<com.fs.starfarer.launcher.ModManager_-ModDependency z="134">
+<id>shaderLib</id>
+<name>GraphicsLib</name>
+<version z="135">
+<major>1</major>
+<minor>6</minor>
+<patch>1</patch>
+<string>1.6.1</string>
+</version>
+</com.fs.starfarer.launcher.ModManager_-ModDependency>
+</dependencies>
+</spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="136">
+<spec z="137">
+<id>speedUp</id>
+<desc>Adds a key binding to speed the game up. Hold the middle mouse button or press the caps lock key. Controls are fully customizable.</desc>
+<name>SpeedUp</name>
+<gameVersion z="138">
+<major>0.95</major>
+<minor>1</minor>
+<patch>5</patch>
+<string>0.95.1a-RC5</string>
+</gameVersion>
+<versionInfo z="139">
+<major>0.7</major>
+<minor>2</minor>
+<patch></patch>
+<string>0.7.2</string>
+</versionInfo>
+<author>DarkRevenant</author>
+<path>D:\Maya\Starsector\starsector-core\..\mods\SpeedUp</path>
+<dirName>SpeedUp</dirName>
+<totalConversion>false</totalConversion>
+<utility>true</utility>
+<modPluginClassName>org.dark.speedup.SUModPlugin</modPluginClassName>
+<fullOverrides z="140"></fullOverrides>
+<jars z="141">
+<st>jars/SpeedUp.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="142"></dependencies>
+</spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="143">
+<spec z="144">
+<id>tahlan</id>
+<desc>A ship pack that suffers from feature creep</desc>
+<name>Tahlan Shipworks</name>
+<gameVersion z="145">
+<major>0.95</major>
+<minor>1</minor>
+<patch></patch>
+<string>0.95.1a</string>
+</gameVersion>
+<versionInfo z="146">
+<major>0.7</major>
+<minor>6</minor>
+<patch></patch>
+<string>0.7.6</string>
+</versionInfo>
+<author>Nia Tahl</author>
+<path>D:\Maya\Starsector\starsector-core\..\mods\tahlan-shipworks</path>
+<dirName>tahlan-shipworks</dirName>
+<totalConversion>false</totalConversion>
+<utility>false</utility>
+<modPluginClassName>data.scripts.tahlan_ModPlugin</modPluginClassName>
+<fullOverrides z="147"></fullOverrides>
+<jars z="148">
+<st>jars/TahlanShipworks.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="149">
+<com.fs.starfarer.launcher.ModManager_-ModDependency z="150">
+<id>lw_lazylib</id>
+<name>LazyLib</name>
+<version z="151">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+</version>
+</com.fs.starfarer.launcher.ModManager_-ModDependency>
+<com.fs.starfarer.launcher.ModManager_-ModDependency z="152">
+<id>MagicLib</id>
+<name>MagicLib</name>
+<version z="153">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+</version>
+</com.fs.starfarer.launcher.ModManager_-ModDependency>
+</dependencies>
+</spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="154">
+<spec z="155">
+<id>Terraforming &amp; Station Construction</id>
+<desc>Terraform planets and build stations.</desc>
+<name>Terraforming &amp; Station Construction</name>
+<gameVersion z="156">
+<major>0.95</major>
+<minor>15</minor>
+<patch></patch>
+<string>0.95a-RC15</string>
+</gameVersion>
+<versionInfo z="157">
+<major>8</major>
+<minor>0</minor>
+<patch>0</patch>
+<string>8.0.0</string>
+</versionInfo>
+<author>boggled</author>
+<path>D:\Maya\Starsector\starsector-core\..\mods\Terraforming and Station Construction</path>
+<dirName>Terraforming and Station Construction</dirName>
+<totalConversion>false</totalConversion>
+<utility>false</utility>
+<modPluginClassName>data.scripts.BoggledTascPlugin</modPluginClassName>
+<fullOverrides z="158"></fullOverrides>
+<jars z="159">
+<st>jar/BoggledTerraformingAndStationConstruction.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="160"></dependencies>
+</spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="161">
+<spec z="162">
+<id>shaderLib</id>
+<desc>An arcane tome of black magic and sorcery.</desc>
+<name>zz GraphicsLib</name>
+<gameVersion z="163">
+<major>0.95</major>
+<minor>1</minor>
+<patch>6</patch>
+<string>0.95.1a-RC6</string>
+</gameVersion>
+<versionInfo z="164">
+<major>1</major>
+<minor>6</minor>
+<patch>1</patch>
+<string>1.6.1</string>
+</versionInfo>
+<author>DarkRevenant</author>
+<path>D:\Maya\Starsector\starsector-core\..\mods\GraphicsLib</path>
+<dirName>GraphicsLib</dirName>
+<totalConversion>false</totalConversion>
+<utility>true</utility>
+<modPluginClassName>org.dark.shaders.ShaderModPlugin</modPluginClassName>
+<fullOverrides z="165"></fullOverrides>
+<jars z="166">
+<st>jars/Graphics.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="167">
+<com.fs.starfarer.launcher.ModManager_-ModDependency z="168">
+<id>lw_lazylib</id>
+<name>LazyLib</name>
+<version z="169">
+<major>2</major>
+<minor>7b</minor>
+<patch></patch>
+<string>2.7b</string>
+</version>
+</com.fs.starfarer.launcher.ModManager_-ModDependency>
+</dependencies>
+</spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="170">
+<spec z="171">
+<id>Neutrino</id>
+<desc>Yet another megacorporation, or said part of it R&amp;D department, stuck in this sector after the Collapse.</desc>
+<name>Neutrino Corporation</name>
+<gameVersion z="172">
+<major>0.95</major>
+<minor>1</minor>
+<patch>6</patch>
+<string>0.95.1a-RC6</string>
+</gameVersion>
+<versionInfo z="173">
+<major>1</major>
+<minor>86-RC3</minor>
+<patch></patch>
+<string>1.86-RC3</string>
+</versionInfo>
+<author>Flashfrozen and Deathfly</author>
+<path>D:\Maya\Starsector\starsector-core\..\mods\Neutrino corp</path>
+<dirName>Neutrino corp</dirName>
+<totalConversion>false</totalConversion>
+<utility>false</utility>
+<modPluginClassName>data.scripts.NCModPlugin</modPluginClassName>
+<fullOverrides z="174"></fullOverrides>
+<jars z="175">
+<st>jars/NeutrinoJAR.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="176"></dependencies>
+</spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="177">
+<spec z="178">
+<id>superweapons</id>
+<desc>Adds Some powerful weapons with questionable balance into the game.</desc>
+<name>Superweapons Arsenal</name>
+<gameVersion z="179">
+<major>0.95</major>
+<minor>15</minor>
+<patch></patch>
+<string>0.95a-RC15</string>
+</gameVersion>
+<versionInfo z="180">
+<major>2</major>
+<minor>1b</minor>
+<patch></patch>
+<string>2.1b</string>
+</versionInfo>
+<author>Mira</author>
+<path>D:\Maya\Starsector\starsector-core\..\mods\Superweapons Arsenal</path>
+<dirName>Superweapons Arsenal</dirName>
+<totalConversion>false</totalConversion>
+<utility>false</utility>
+<fullOverrides z="181"></fullOverrides>
+<jars z="182"></jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="183">
+<com.fs.starfarer.launcher.ModManager_-ModDependency z="184">
+<id>lw_lazylib</id>
+<name>LazyLib</name>
+<version z="185">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+</version>
+</com.fs.starfarer.launcher.ModManager_-ModDependency>
+<com.fs.starfarer.launcher.ModManager_-ModDependency z="186">
+<id>MagicLib</id>
+<name>MagicLib</name>
+<version z="187">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+</version>
+</com.fs.starfarer.launcher.ModManager_-ModDependency>
+<com.fs.starfarer.launcher.ModManager_-ModDependency z="188">
+<id>shaderLib</id>
+<name>GraphicsLib</name>
+<version z="189">
+<major></major>
+<minor></minor>
+<patch></patch>
+<string></string>
+</version>
+</com.fs.starfarer.launcher.ModManager_-ModDependency>
+</dependencies>
+</spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+</allModsEverEnabled>
+<enabledMods z="190">
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="191">
+<spec ref="6"></spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="192">
+<spec ref="13"></spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="193">
+<spec ref="20"></spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="194">
+<spec ref="27"></spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="195">
+<spec ref="38"></spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="196">
+<spec ref="47"></spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="197">
+<spec ref="58"></spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="198">
+<spec ref="65"></spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="199">
+<spec ref="72"></spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="200">
+<spec ref="79"></spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="201">
+<spec ref="86"></spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="202">
+<spec ref="95"></spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="203">
+<spec ref="104"></spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="204">
+<spec ref="115"></spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="205">
+<spec ref="126"></spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="206">
+<spec ref="137"></spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="207">
+<spec ref="144"></spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="208">
+<spec ref="155"></spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="209">
+<spec ref="162"></spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="210">
+<spec ref="171"></spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="211">
+<spec ref="178"></spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+</enabledMods>
+</SaveGameData>

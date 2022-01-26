@@ -1,0 +1,41 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "swp_eos",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "swp_eos_att",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "ionbeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "taclaser",
+                "WS0005": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "swp_microblaster",
+                "WS0003": "swp_microblaster",
+                "WS0006": "swp_microblaster",
+                "WS0007": "swp_microblaster"
+            }
+        }
+    ],
+    "wings": [
+        "trident_wing",
+        "trident_wing",
+        "broadsword_wing",
+        "broadsword_wing"
+    ]
+}

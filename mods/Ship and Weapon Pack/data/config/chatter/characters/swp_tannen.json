@@ -1,0 +1,82 @@
+{
+	"name":"Captain Tannen",
+	"personalities":[],
+	"gender":[],
+	"chance":0,
+	"talkativeness":1,
+	"categoryTags":[],
+
+	"lines":{
+		"start":[
+			{"text":"It be time for battle, lads."},
+			{"text":"Man the cannons!"},
+			{"text":"We sail ter riches! Onward!"},
+			{"text":"Plunder awaits, me hearties!"},
+			{"text":"Teach 'em t'fear Captain Tannen!"},
+		],
+		"start_boss":[
+			{"text":"Arr, that be the mighty Leviathan!"},
+			{"text":"The kraken approaches!"},
+			{"text":"Just another head t'mount in me cabin!"},
+		],		
+		"retreat":[
+			{"text":"Turn rudder and flee, lads!"},
+			{"text":"Time t'leave while we still can!"},
+			{"text":"Honor is livin' t'fight another day!"},
+		],
+		"out_of_missiles":[
+			{"text":"We do be fresh out o'torpedoes."},
+			{"text":"No more heavy munitions, lads!"},
+		],
+		"engaged":[
+			{"text":"Rally t'me, ye scallywags!"},
+			{"text":"Cannons, fire!"},
+			{"text":"I can see th'whites o' their eyes."},
+			{"text":"All hands t'deck!"},
+			{"text":"Swords out n'guns drawn!"},
+		],
+		"need_help":[
+			{"text":"To me, lads! We're sunk if we don't push through!"},
+			{"text":"I do be in trouble!"},
+			{"text":"Give 'er everythin' she's got!"},
+		],
+		"pursuing":[
+			{"text":"Give chase, sea dogs!"},
+			{"text":"Don't let 'em get away, lads!"},
+			{"text":"Yer mine, ye bastards!"},
+		],
+		"running":[
+			{"text":"Ye'll never take Captain Tannen alive!"},
+			{"text":"Pull back, don't let 'em overtake us!"},
+		],
+		"hull_90":[
+			{"text":"We've been hit!"},
+			{"text":"Jus' a scratch."},
+		],
+		"hull_50":[
+			{"text":"Keep steady, lads! She's holdin' together!"},
+			{"text":"We're takin' on water!"},
+		],
+		"hull_30":[
+			{"text":"Oh, that's nay any good!"},
+			{"text":"We're nearly sunk!"},
+			{"text":"Don't give up, lads!"},
+			{"text":"Captain Tannen will never die!"},
+		],
+		"overload":[
+			{"text":"Which o'ye louts overloaded the capacitors?!"},
+			{"text":"Git me ship runnin' or someone's walkin' the plank!"},
+		],
+		"death":[
+			{"text":"Heh. Well done."},
+			{"text":"That ain't the last ye've seen o' me!"},
+			{"text":"Time t'greet the ferryman."},
+		],
+		"victory":[
+			{"text":"We've won the day, lads!"},
+			{"text":"Time t'split the loot, men!"},
+			{"text":"Gold and glory!"},
+			{"text":"Captain Tannen wins again!"},
+		],
+	}
+}

@@ -1,0 +1,43 @@
+{
+    "displayName": "Derelict",
+    "fluxCapacitors": 0,
+    "fluxVents": 11,
+    "hullId": "swp_cathedral_rear",
+    "hullMods": [
+        "insulatedengine",
+        "reinforcedhull",
+        "blast_doors"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "swp_cathedral_rear_starter",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "dualflak",
+                "WS0004": "dualflak",
+                "WS0005": "dualflak"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "pilum",
+                "WS0003": "pilum"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "lightdualmg",
+                "WS0007": "lightdualmg",
+                "WS0008": "lightdualmg",
+                "WS0009": "lightdualmg"
+            }
+        }
+    ]
+}

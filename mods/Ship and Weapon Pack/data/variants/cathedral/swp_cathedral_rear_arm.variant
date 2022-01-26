@@ -1,0 +1,48 @@
+{
+    "displayName": "Armored",
+    "fluxCapacitors": 0,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "swp_cathedral_rear",
+    "hullMods": [
+        "heavyarmor",
+        "insulatedengine",
+        "reinforcedhull"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "swp_cathedral_rear_arm",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "lightac",
+                "WS0007": "lightac",
+                "WS0008": "lightac",
+                "WS0009": "lightac"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "pilum",
+                "WS0003": "pilum"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "swp_plasmaflame",
+                "WS0005": "swp_plasmaflame"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "swp_tripleflak"}
+        }
+    ]
+}

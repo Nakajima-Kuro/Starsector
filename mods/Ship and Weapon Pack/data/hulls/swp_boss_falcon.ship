@@ -1,0 +1,271 @@
+{
+  "bounds": [
+    28.5,
+    -14.5,
+    115,
+    -9,
+    120,
+    -33,
+    55,
+    -46.5,
+    -12.5,
+    -75,
+    -36,
+    -61.5,
+    -55.5,
+    -61,
+    -45,
+    -45,
+    -65.5,
+    -50.5,
+    -80,
+    -33.5,
+    -80,
+    -14,
+    -71,
+    -12.5,
+    -71,
+    12.5,
+    -80,
+    14,
+    -80,
+    33.5,
+    -65.5,
+    50.5,
+    -45,
+    45,
+    -55.5,
+    61,
+    -36,
+    61.5,
+    -12.5,
+    75,
+    55,
+    46.5,
+    120,
+    33,
+    115,
+    9,
+    28.5,
+    14.5
+  ],
+  "center": [
+    76,
+    82
+  ],
+  "collisionRadius": 179.136826,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 28,
+      "length": 96,
+      "location": [
+        -82,
+        24
+      ],
+      "style": "MIDLINE",
+      "width": 28
+    },
+    {
+      "angle": 180,
+      "contrailSize": 28,
+      "length": 96,
+      "location": [
+        -82,
+        -24
+      ],
+      "style": "MIDLINE",
+      "width": 28
+    },
+    {
+      "angle": 156,
+      "contrailSize": 128,
+      "length": 80,
+      "location": [
+        -75,
+        42.5
+      ],
+      "style": "MIDLINE",
+      "width": 28
+    },
+    {
+      "angle": -156,
+      "contrailSize": 128,
+      "length": 80,
+      "location": [
+        -75,
+        -42.5
+      ],
+      "style": "MIDLINE",
+      "width": 28
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 64,
+      "location": [
+        -72,
+        10
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 64,
+      "location": [
+        -72,
+        -10
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 80,
+      "location": [
+        -72,
+        -0
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    }
+  ],
+  "height": 208,
+  "hullId": "swp_boss_falcon",
+  "hullName": "Raptor",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    23,
+    0
+  ],
+  "shieldRadius": 155,
+  "spriteName": "graphics/swp/ships/boss/swp_boss_falcon.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS 001",
+      "locations": [
+        4,
+        69
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS 002",
+      "locations": [
+        4,
+        -69
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 60,
+      "arc": 170,
+      "id": "WS 005",
+      "locations": [
+        14,
+        38
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -60,
+      "arc": 170,
+      "id": "WS 006",
+      "locations": [
+        14,
+        -38
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS 007",
+      "locations": [
+        120,
+        28
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS 008",
+      "locations": [
+        119.5,
+        -28
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 5.01,
+      "id": "WS0001",
+      "locations": [
+        28,
+        56
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 5.01,
+      "id": "WS0002",
+      "locations": [
+        28,
+        -56
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5.01,
+      "id": "WS0003",
+      "locations": [
+        116,
+        -14
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -0,
+      "arc": 5.01,
+      "id": "WS0004",
+      "locations": [
+        116,
+        14
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 152
+}

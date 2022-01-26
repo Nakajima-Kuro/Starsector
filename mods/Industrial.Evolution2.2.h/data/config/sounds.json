@@ -1,0 +1,21 @@
+{
+	"IndEvo_warp_start":[
+	{"file":"IndEvo/sounds/IndEvo_planet_warp_start.ogg","pitch":1,"volume":1},
+	],
+
+	"IndEvo_warp_loop":[
+	{"file":"IndEvo/sounds/IndEvo_planet_warp_loop.ogg","pitch":1,"volume":1},
+	],
+
+	"IndEvo_warp_end":[
+	{"file":"IndEvo/sounds/IndEvo_planet_warp_end.ogg","pitch":1,"volume":1},
+	],
+
+	"IndEvo_converter_hostile":[
+		{"file":"IndEvo/sounds/converter_hostile_interaction.ogg","pitch":1,"volume":1},
+	]
+}
+
+
+
+

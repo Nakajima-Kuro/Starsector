@@ -1,0 +1,11 @@
+{
+	"id":"sun_hyperdrive",
+	"name":"Hyperdrive",
+    "utility":"false",
+	"author":"Sundog",
+	"version":"2.1.1",
+	"description":"Adds a campaign ability that essentially allows you to teleport",
+	"gameVersion":"0.95a-RC15",
+	"jars":["jars/Hyperdrive.jar"],
+    "modPlugin":"hyperdrive.ModPlugin",
+}

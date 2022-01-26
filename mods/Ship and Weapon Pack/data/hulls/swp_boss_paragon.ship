@@ -1,0 +1,533 @@
+{
+  "bounds": [
+    165,
+    -22,
+    182,
+    -25,
+    182,
+    -53.5,
+    130,
+    -64.5,
+    124,
+    -93,
+    101.5,
+    -95.5,
+    59.5,
+    -121.5,
+    26,
+    -122.5,
+    18.5,
+    -136,
+    -5,
+    -133.5,
+    -25,
+    -146.5,
+    -102.5,
+    -111,
+    -118,
+    -128.5,
+    -106,
+    -151.5,
+    -139,
+    -164.5,
+    -202,
+    -169,
+    -179,
+    -156.5,
+    -183.5,
+    -99,
+    -194,
+    -98.5,
+    -177,
+    -39.5,
+    -159,
+    -25,
+    -104.5,
+    -39.5,
+    -119,
+    -70,
+    -133.5,
+    -83.5,
+    -120,
+    -97,
+    -105.5,
+    -82.5,
+    -119,
+    -70,
+    -104.5,
+    -39.5,
+    -67,
+    -20,
+    -19,
+    -58.5,
+    18,
+    -55.5,
+    45,
+    -28.5,
+    12,
+    -6,
+    12,
+    6,
+    45,
+    28.5,
+    18,
+    55.5,
+    -19,
+    58.5,
+    -67,
+    20,
+    -104.5,
+    39.5,
+    -119,
+    70,
+    -133.5,
+    83.5,
+    -120,
+    97,
+    -105.5,
+    82.5,
+    -119,
+    70,
+    -104.5,
+    39.5,
+    -159,
+    25,
+    -177,
+    39.5,
+    -194,
+    98.5,
+    -183.5,
+    99,
+    -179,
+    156.5,
+    -202,
+    169,
+    -139,
+    164.5,
+    -106,
+    151.5,
+    -118,
+    128.5,
+    -102.5,
+    111,
+    -25,
+    146.5,
+    -5,
+    133.5,
+    18.5,
+    136,
+    26,
+    122.5,
+    59.5,
+    121.5,
+    101.5,
+    95.5,
+    124,
+    93,
+    130,
+    64.5,
+    182,
+    53.5,
+    182,
+    25,
+    165,
+    22
+  ],
+  "builtInMods": [
+    "advancedcore"
+  ],
+  "center": [
+    171,
+    210
+  ],
+  "collisionRadius": 271.96048,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 14,
+      "length": 80,
+      "location": [
+        -182,
+        132
+      ],
+      "style": "HIGH_TECH",
+      "width": 14
+    },
+    {
+      "angle": 180,
+      "contrailSize": 14,
+      "length": 80,
+      "location": [
+        -187,
+        104
+      ],
+      "style": "HIGH_TECH",
+      "width": 14
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 48,
+      "location": [
+        -189,
+        72
+      ],
+      "style": "HIGH_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 48,
+      "location": [
+        -189,
+        64
+      ],
+      "style": "HIGH_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 48,
+      "location": [
+        -187,
+        57
+      ],
+      "style": "HIGH_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 48,
+      "location": [
+        -187,
+        -57
+      ],
+      "style": "HIGH_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 48,
+      "location": [
+        -189,
+        -64
+      ],
+      "style": "HIGH_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 48,
+      "location": [
+        -189,
+        -72
+      ],
+      "style": "HIGH_TECH",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 14,
+      "length": 80,
+      "location": [
+        -187,
+        -104
+      ],
+      "style": "HIGH_TECH",
+      "width": 14
+    },
+    {
+      "angle": 180,
+      "contrailSize": 14,
+      "length": 80,
+      "location": [
+        -182,
+        -132
+      ],
+      "style": "HIGH_TECH",
+      "width": 14
+    },
+    {
+      "angle": 180,
+      "contrailSize": 14,
+      "length": 80,
+      "location": [
+        -182,
+        -124
+      ],
+      "style": "HIGH_TECH",
+      "width": 14
+    },
+    {
+      "angle": -180,
+      "contrailSize": 14,
+      "length": 80,
+      "location": [
+        -182,
+        124
+      ],
+      "style": "HIGH_TECH",
+      "width": 14
+    }
+  ],
+  "height": 399,
+  "hullId": "swp_boss_paragon",
+  "hullName": "Zeus",
+  "hullSize": "CAPITAL_SHIP",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 270,
+  "spriteName": "graphics/swp/ships/boss/swp_boss_paragon.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS 001",
+      "locations": [
+        115,
+        80
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS 002",
+      "locations": [
+        115,
+        -80
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 80,
+      "arc": 220,
+      "id": "WS 003",
+      "locations": [
+        3,
+        100
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -80,
+      "arc": 220,
+      "id": "WS 004",
+      "locations": [
+        3,
+        -100
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS 005",
+      "locations": [
+        177,
+        45
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS 006",
+      "locations": [
+        177,
+        -45
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 45,
+      "arc": 210,
+      "id": "WS 007",
+      "locations": [
+        75,
+        65
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -45,
+      "arc": 210,
+      "id": "WS 008",
+      "locations": [
+        75,
+        -65
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 110,
+      "arc": 205,
+      "id": "WS 009",
+      "locations": [
+        -31,
+        113
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -110,
+      "arc": 205,
+      "id": "WS 010",
+      "locations": [
+        -31,
+        -113
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 60,
+      "arc": 205,
+      "id": "WS 011",
+      "locations": [
+        62,
+        97
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 130,
+      "arc": 200,
+      "id": "WS 013",
+      "locations": [
+        -69,
+        109
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 145,
+      "arc": 190,
+      "id": "WS 015",
+      "locations": [
+        -83,
+        75
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 140,
+      "arc": 245,
+      "id": "WS 016",
+      "locations": [
+        -151,
+        110
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -60,
+      "arc": 205,
+      "id": "WS 017",
+      "locations": [
+        62,
+        -97
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -130,
+      "arc": 200,
+      "id": "WS 019",
+      "locations": [
+        -69,
+        -109
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -145,
+      "arc": 190,
+      "id": "WS 021",
+      "locations": [
+        -83,
+        -75
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -140,
+      "arc": 245,
+      "id": "WS 022",
+      "locations": [
+        -151,
+        -110
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 215,
+      "id": "WS0001",
+      "locations": [
+        73,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        152,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "UNIVERSAL"
+    }
+  ],
+  "width": 342
+}

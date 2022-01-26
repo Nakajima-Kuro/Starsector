@@ -1,0 +1,14 @@
+{
+    "knownWeapons":{
+        "weapons":[
+            "swp_flareburst",
+            "swp_inferno",
+            "swp_ionblaster",
+            "swp_iontorpedo",
+            "swp_lightninggun",
+            "swp_lightphaselance",
+            "swp_trebuchet",
+            "swp_tripleflak",
+        ],
+    },
+},

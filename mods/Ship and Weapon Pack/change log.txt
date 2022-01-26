@@ -1,0 +1,491 @@
+Upcoming (Unreleased)
+- Added story quest: Buried Treasure
+  * Centers around the Excelsior
+  * Open-ended, branching questline
+  * Includes new music from MesoTroniK
+  * Currently the biggest quest ever created for Starsector
+
+Version 1.13.0 (January 5, 2022)
+- Updated for Starsector 0.95.1a
+- Added Champion (LG)
+  * Thanks to King Alfonzo for the sprite!
+- Excelsior
+  * Excelsior no longer spawns naturally
+  * Added new MagicBounty scenario that involves fighting the Excelsior (if you have MagicLib)
+    - Not recoverable
+  * Can currently unlock the Excelsior by completing Duel of the Century (main menu mission)
+    - Appears as a unique "Super Ship" choice for the Free Start and Own Faction options
+    - Improved Duel of the Century mission
+  * Various small tweaks to the Excelsior system and weapon behavior
+  * Beam weapon impacts now directly raise the Excelsior's flux
+  * Huge UI improvement to the Excelsior's system
+  * Profoundly improved Excelsior AI competence
+  * Numerous general improvements to the Excelsior look, feel, and UI
+- International Bounty Board (IBB)
+  * Made IBB bar events more common
+  * Added Story Point option to the IBB bar event to roll a different bounty target and make the original less likely to show up again
+  * Reworked IBB scaling, with regards to s-mods, officer levels/counts/elite skills, commander levels/elite skills, and commander fleet skills
+    - Stronger IBB fleets can break the usual cap of 2 bonus fleetwide skills, level 5-6 officers, 1-2 officer elite skills, 12-20 total officers, etc.
+  * Defeating an IBB fleet awards a Story Point
+  * Iron Shell, Star Federation, and Roider Union have joined the IBB
+  * IBB ships are generally always recoverable
+  * Removed Helios
+- Hullmods
+  * Removed Shield Bypass
+  * Removed Gunnery Core AI hullmod
+  * Extreme Modifications
+    - Extreme Modifications no longer grants an OP bonus; instead, it allows you to install an additional built-in hullmod
+    - Extreme Modifications becomes permanent if you install that additional built-in hullmod
+    - Extreme Modifications' chance for weapon malfunctions is increased to 3%; engine malfunctions are reduced to 1.5% (from 2/2)
+    - Extreme Modifications now adds a sliding 10-50% chance increase of critical malfunctions (per malfunction) when CR reaches 40% or less
+    - Extreme Modifications' fighter refit time penalty is reduced to 20% from 30%
+    - Extreme Modifications (obviously) cannot be built-in
+  * Added new hullmod: PD Assault Conversion
+    - Costs 4/8/12/20
+    - Causes all point-defense weapons to behave like standard anti-ship weapons
+    - Increases the ordnance point cost of point-defense weapons by 1/2/4, depending on size
+    - Boosts PD range by 25%, damage by 25%, hit strength by 50%
+- Vanguard renamed to Caliber
+  * Caliber now has Damper Field instead of shields, Rugged Construction built in
+  * Caliber armor increased to 800 to 600, hull increased to 5000 from 4500, other stats tweaked slightly
+  * Caliber supply cost reduced to 8 from 9
+- Miscellaneous
+  * Integrated various new campaign features into existing content
+  * Fixed the calculation/obscurement of some area-of-effect damage
+  * Added fighter weapon descriptions
+  * Lightning Gun is now truly hitscan (no more framerate-related bugs or ghost projectile)
+  * Various minor-to-moderate optimizations using the new Starsector API changes
+  * Fixed a crash when Prism's High-End Seller tried to sell Killer Bee
+  * Updated Striker sprite
+  * Added Rugged Construction to shieldless ships
+  * Adjusted various weapon AI values
+- Balance
+  * Nautilus cargo increased to 75 from 70
+  * Cathedral fuel per light year reduced to 20 from 30
+  * Falx engagement range reduced to 6000 from 8000
+  * Aegis Flak Cannon damage increased to 400 from 300
+  * Shimmer DP reduced to 22 from 25
+  * Solar DP reduced to 40 from 60
+  * Heavy Ion Blaster OP increased to 15 from 14, flux cost reduced to 900 from 1500
+  * Flare Gun type changed to Composite (Missile stats)
+  * Plasma Flamer type changed to Hybrid (Ballistic stats)
+  * Klutotekhnes flux per shot reduced to 80 from 120
+  * Victory maximum crew reduced to 1000 from 1250, frontal shield arc increased to 120 from 90, base speed increased to 35 from 30
+    - Victory Jets can now be toggled off (like with Burn Drive)
+  * Liberator's shield upkeep reduced to 150 from 250 flux/sec, crew min/max reduced to 500/1000 from 600/1200, acceleration slightly increased, deceleration greatly increased
+  * Punisher hull increased to 8000 from 6000
+  * Trebuchet OP reduced to 24 from 28, damage increased to 900 from 750
+  * Vulture supply cost reduced to 17 from 18, flux dissipation increased to 350 from 325
+  * Albatross now has two wings of flak drones instead of one, and Canister Flak x5 instead of Damper Field
+    - Increased Flak Drone weapon range to 600 from 500
+  * Reduced Circe peak performance time to 360 from 420
+  * Increased Eos speed to 60 from 40, increased accel/decel accordingly
+  * Vindicator flux dissipation increased to 400 from 350; (S) variant increased to 450
+  * Zenith shields improved to 0.7 efficiency from 0.8, arc increased to 210 from 180, flux capacity reduced to 12000 from 13000
+  * Improved Archon maneuverability
+
+Version 1.12.4 (March 10, 2021)
+- Support special new Underworld IBB
+- Reduced Vindicator and Vindicator (S) OP by 5 each
+
+Version 1.12.3b (January 14, 2021)
+- Possible fix for yet another Cathedral bug
+
+Version 1.12.3 (January 12, 2021)
+- Added workaround for Luddic Path faction file to get the LP Enforcer to spawn
+- Added support for more factions in Custom Battle
+- Fixed a bizarre Starsector bug related to module-ships that would crash the game in certain situations
+  * NPC Cathedrals will not respect the effect of D-mods on modules, as a result...
+
+Version 1.12.2 (January 4, 2021)
+- Cathedral loses 0-flux speed boost efficiency when its modules have a flux level
+  * If every module is above 0% but below 1% flux (shield on but no damage), the speed boost is halved
+  * If every module is at or above 1% flux, the speed boost is eliminated
+- Minor Wall fix
+- Minor fix for knockback logic
+- Applied various dirty hacks to get D-mods to work on Cathedral/Wall modules
+- Added custom Nexerelin start "Reconstruction of Notre Dame"
+  * Start with a heavily D-modded unique Cathedral under the Luddic Church faction
+  * Slowly restore the ship to her former glory
+- The Hexblade's mini-blasters now deal 10 EMP damage in addition to the 20 energy damage per shot
+- Made the Cathedral less likely to be available to purchase in markets
+
+Version 1.12.1 (December 25, 2020)
+- Renamed Revenant to Nightwalker
+- Chronos DP decreased to 35 from 40
+- Tweaked Time Accelerator; is now a shorter charge-based system
+- Beholder DP increased to 11 from 10
+- Beholder Ray Drones now have a hullmod called Ray Core instead of Terminator Core and IPDAI
+  * 3x damage to missiles, up from 2.5x
+  * 2x damage to fighters, same as before
+  * Tactical Laser can target missiles, ignores flares, and perfectly tracks the target, same as before
+  * Tactical Laser turns 2x faster, same as before
+  * Takes no engine damage, same as before
+  * 2/3x damage to shields, down from 1x
+  * Range now matches the mothership, up/down from a flat +300
+- Increased delay between Hornet MRM shots in a burst to 0.5 from 0.3 (but not the total time between bursts)
+- Increased Hornet MRM damage to 400 from 375
+- Updated missile AI to permit Scutum's Attraction Array
+- Partisan replace time increased to 12 from 10 seconds
+- Fixed version file HTTPS redirect
+- Fixed a bizarre edge-case bug relating to Sabot SRMs
+- The Cathedral's modules' hull sizes are changed to frigate-tier after the battle starts
+  * This is a dirty hack to improve macro-level AI behavior around the Cathedral
+  * This will not affect the behavior of most hullmods, but anything with an every-frame calculation might behave strangely if it depends on the module's hull size
+- The Cathedral's shield and collision radius now dynamically shrinks to account for modules that are blown off
+
+Version 1.12.0 (September 28, 2020)
+- Added Vulture (P)
+- Added Liberator and Liberator (LC)
+- Updated Burst Jets AI (the Liberator uses it)
+- IBBs can no longer spawn in systems containing markets
+- Light Phase Lance no longer fires on full charge (it's a normal burst beam, like the regular Phase Lance)
+  * This improves the stats considerably; 487 damage -> 541 damage; 108 DPS -> 120 DPS; 1.31 flux ratio -> 1.18 flux ratio
+- Aegis Flak Cannon damage increased to 300 from 250
+- Added IBB bounty (appears after the Framebreaker bounty) requiring the ARS faction
+- Added IBB bounty (appears after the Emperor bounty) requiring the ScalarTech faction
+- Added IBB bounty (appears after the Euphoria bounty) requiring the Borken faction
+- Minor rebalance of IBB stages
+- Remove one enemy from Duel of the Century (will return with Exigency)
+- Some configuration for compatibility with various other mods
+- Lucifer DP increased to 60 from 45
+- Beholder DP decreased to 10 from 11, now has an omni shield
+- Migrated version file to custom host (sigh)
+
+Version 1.11.0 (July 11, 2020)
+- New Vindicator and Gungnir sprites
+- New Chronos sprite
+- New Circe sprite
+- New Revenant sprite
+- New Vulture sprite
+- Circe weapon layout rework
+- Nike now has built-in Gunnery Control AI and Expanded Missile Racks, burn speed increased to 8 from 7, DP cost reduced to 50 from 52
+- Lucifer now uses station version of Mine Strike
+- Increased Dawnstar speed to 85 from 70
+- Reworked Lightning Gun stats; now is more efficient and fires in quick bursts
+- Conquest (XIV) is now 4x rarer
+- Added IBB bounty (appears after the Emperor bounty) requiring the ICE faction
+- Added Custom Battle and Random Battle missions
+- Some configuration for Vayra's Sector and Starship Legends
+- Migrated version file to BitBucket
+
+Version 1.10.5 (December 23, 2019)
+- Sporeship IBB now drops AI cores (guaranteed at least 2 Alphas)
+- Gunnery Control AI recoil / shot speed bonus reduced to 35% from 50%, no longer double-improves decay time
+- Extreme Modifications now increases fighter refit time by 30%
+- IBBs that are forced to recover now have up to 10 D-mods rather than 20
+- Fixed Ray Drone description
+
+Version 1.10.4 (September 8, 2019)
+- Decreased Cathedral deployment cost to 85 from 100 and auto-resolve strength to 40 from 50
+- Bumped Cathedral hull values
+  * 4000 -> 6000 for hangar
+  * 6000 -> 8000 for gunnery
+  * 12000 -> 15000 for engine
+  * 12000 -> 20000 for bastion
+- Cathedral no longer loses zero flux boost if the engine section isn't at zero flux - only the core matters
+- Bumped Redeemer Sub-munition HP to 200 from 75
+- Tweaked CR/deploy for multiple ships to adjust the cost of full recovery
+- Updated Euphoria IBB
+- Reduced Zenith deployment cost to 30 from 35 and auto-resolve strength to 17 from 18
+
+Version 1.10.3 (July 12, 2019)
+- Fixed Extreme Modifications UI issue
+- Fixed bizarre Arcade crash.  WTF Alex?
+- Updated Yamato IBB
+- Maybe fixed possible edge case that might have resulted in an IBB not being recoverable?
+- Added Imperium-flavored Excelsior for a new IBB bounty, ft. HELMUT
+
+Version 1.10.2 (June 18, 2019)
+- Increased Vindicator deployment cost to 28 from 25
+- Decreased Vindicator turn rate
+- Increased Cathedral deployment cost to 100 from 80
+- No longer shows IBB person in bar if IBBs are disabled in config
+- Extreme Modifications can now go on civilian ships with Militarized Subsystems
+- Fixed IBBs belonging to incorrect faction
+
+Version 1.10.1 (May 17, 2019)
+- Updated for Starsector 0.9.1a
+- Various minor updates to bring in line with the new Starsector version
+- Updated ship prices
+- IBB commanders have more commander skills
+- IBB events that end are automatically un-pinned
+- Fixed IBBs dying prematurely
+- Fixed module malfunction-related flameouts not affecting parent ship
+- Fighter-wielding modules now match the core ship's targeting (if applicable)
+- Minor fix to Redeemer sub-missile tracking logic
+- Fixed rare crash related to autogenerated factions
+- Fixed small alignment issue for Conquest (XIV)
+- Made Victory rarer in Persean League and Sindrian Diktat fleets/markets
+- Sindrian Diktat no longer spams the Buffalo (LG) quite as much
+- Fixed IBB spawns in retreat scenarios
+- Increased rarity of Excelsior even further
+- Vulture burn speed increased to 9 from 8
+- Falx OP increased to 16 from 14
+- Several heavy weapons now pierce through missiles (e.g. Gungnir, Heavy Ion Blaster)
+- Revenant deployment cost reduced to 22 from 25
+
+Version 1.10.0 (February 15, 2019)
+- Entirely remade the Cathedral as a module-ship with a litany of campaign-level bonuses and a cost to match
+- The Redeemer is now a completely different weapon (long range torpedo with pseudo-MIRV-like behavior)
+- Removed Lightning-class Phase Bomber
+- Cleaned up missions, added Stained Glass mission
+- Circe shield efficiency buffed to 0.7 from 0.8
+- Tweaked the Burst Jets AI
+- Vesperon Combine whitelist
+
+Version 1.9.1 (January 13, 2019)
+- IBBs are now *actually* always recoverable
+  * This works by automatically making the IBB ship recoverable, even if it didn't make the "legitimate" recovery pass
+  * This only occurs for one IBB ship of each type (so if you fight four Hades, only one is guaranteed to be recoverable)
+  * Any ship that gets recovered in this manner has tons of D-mods
+- Minor update to IBB spawn locations
+- Renamed IBB ship Nebula to Dawnstar
+
+Version 1.9.0 (January 12, 2019)
+- IBB system works again, is now triggered by bar events; generally reworked
+- In theory, boss ships should always be recoverable when you first fight them
+- Fixed Punisher spawn rate in Luddic Church fleets/markets
+- Fixed Excelsior and Hecate spawn rate in Tri-Tachyon fleets/markets
+- Fixed Persean League spawning rates
+- Vindicator (S) now has Rapid Ammo Loader (works like Fast Missile Racks for ballistic weapons)
+- Completely remade Zenith-class Heavy Cruiser
+- Fixed Guardian spawn - won't conflict with the Wall anymore - and Wall can appear in normal Explorarium fleets
+- Vortex and Solar shield efficiency nerfed to 0.7 from 0.6
+- Circe shield efficiency nerfed to 0.8 from 0.6
+- Alastor shield efficiency nerfed to 0.9 from 0.8, but deployment cost reduced to 5 from 6
+- Vanguard shield efficiency nerfed to 1.1 from 1, and deployment cost increased to 9 from 8, and OP increased to 85 from 80
+- Chronos flux capacity reduced to 15,000 from 17,500
+- Balance pass on Drake (half shot damage/flux, double shot rate, reduced speed)
+- Various additional small balance tweaks
+- Tweaked trails a bit
+
+Version 1.8.0 (December 16, 2018)
+- Added ORA Ascension to Duel of the Century
+- Magnificent Seven can now select Persean League ships
+- Gunnery Control AI rebalance (now increases shot speed by 50%)
+- Added Lion's Guard Blueprint Package
+- Nautilus is now a base blueprint, civilian hull that has 10 max burn and More OP to play with
+- Zenith now has the Plasma Burn system and significantly improved turning speed
+- Beholder's drones reworked; no more rear PD but increased arc, Terminator Core, and IPDAI
+- Chronos max burn increased to 8 from 7
+- Increased Victory to 55 supplies/rec from 50 and 650/1250 min/max crew
+- Decreased Zenith min crew to 125 from 175
+- Decreased Vortex min crew to 50 from 70
+- Increased Eos max crew to 300 from 250
+- Enforcer (LP) now has Accelerated Ammo Feeder
+- Various minor stats and prices updated across the board
+- Renamed Radiant to Solar
+- Removed all (D) skins
+- Dramatically reduced the number of preset variants
+- Reworked nearly every remaining preset variant
+- Removed Skeleton Crew, Expanded Cargo, Expanded Crew Quarters, and Expanded Fuel Tanks hullmods
+- Extreme Modifications is now considered a logistics hullmod
+- Excelsior's main weapon now works at a narrower flux range and costs slightly less flux to fire, but has lower damage (overall easier to use but not significantly more powerful)
+- Made Excelsior's campaign-level CR stats a little more forgiving
+- Fixed/standardized file and ID prefixes
+- Added cool trails to certain weapons
+- New Vanguard sprite
+- New Punisher sprite
+- New Excelsior sprite
+- Updated Contender Cannon sprite
+- Reworked Vanguard; main weapon is now a hardpoint, reduced OP to 80 from 90, added Heavy Ballistics Integration
+- Changed Punisher's central hardpoint into a composite slot
+- Reworked a whole bunch of descriptions
+- Works in Starsector 0.9a
+
+Version 1.7.2 (August 5, 2018)
+- Updated Alastor sprite; increased HP to 2250 from 2000
+- Added Alastor (XIV) skin
+- Removed Alastor (D) skin
+- Remade default Alastor variants to be much more effective
+- Reduced Albatross price and increased peak time
+
+Version 1.7.1 (April 24, 2018)
+- Removed vanilla balance changes
+- No longer makes any changes to vanilla content (gameplay, scripts, art, sounds, etc)
+
+Version 1.7.0 (April 23, 2018)
+- Added Falx Super Interceptor
+- Added Drake Assault Interceptor
+- Added Partisan Escort Interceptor
+- Added Mini-Blaster Array
+- Added Lasher (XIV)
+- Rebalanced Albatross
+- New Albatross sprite
+- New Hexblade sprite
+- New Conquest (XIV) sprite
+
+Version 1.6.0 (January 26, 2018)
+- Added Eos-class carrier
+- New Lightning sprite
+- Rebalanced Lightning-class phase bomber
+- Improved Mini-Blaster sounds
+- Adjusted Magnificent Seven
+- Various minor bugs fixed
+
+Version 1.5.0 (December 1, 2017)
+- Added Radiant-class Droneship Battlecarrier
+- Added Hexblade Heavy Fighter
+- Added Mini-Blaster
+- Added mission "No Witness"
+- Updated Gungnir sound
+
+Version 1.4.1 (October 3, 2017)
+- Increased Striker OP to 85 from 75
+- AI improvements
+
+Version 1.4.0 (October 1, 2017)
+- Added Striker-class Light Destroyer
+  * And Luddic Church skin
+- Added Lion's Guard (LG) skins for Brawler, Buffalo, Conquest, Eagle, Hammerhead, Heron, and Vigilance
+  * Built-in Solar Shielding
+- Implemented Tyrador and Dassault-Mikoyan support for the Arcade
+- Added Magnificent Seven mission
+- Made Pope IBB 3rd-to-last rather than 2nd-to-last
+- Made IBBs appear in mission offerings more often
+- Minor fixes
+- Heavy Ion Blaster now does 500 energy and 3000 EMP on impact with 4x 1000 EMP arcs (arcing damage effectively removed)
+- Ion Torpedo now does 1000 fragmentation and 4500 EMP on impact with 4x 1500 EMP arcs (arcing damage effectively removed)
+- Ion Torpedo now only does extra hard flux damage on a shield hit, not a hull hit
+- IBB no longer requires faction reputation in Nexerelin
+- Increased Lightning speed to 200 from 150
+- Updated for II hull mods
+- Updated for Diable hull mods
+- Replaced Citadel enemy in Duel of the Century with Shadowyards' Shamash
+
+Version 1.3.0 (June 19, 2017)
+- Major save stability fixes
+- Added new IBB (after Yamato and before Pope) with a Derelicts/Remnants fleet and extra-special flagship
+- Predator IBB renamed to Apex
+- Improve spawning in arcade to not be crazy
+- Helios can no longer mount Converted Hangar
+- Vanguard flux dissipation reduced to 200 from 250
+- Major adjustment to fleet composition ratios for various factions
+- Changed Warthog flares to single-flares
+- Reduced Warthog armor to 150 from 200
+- Renamed Cargo Expansion to Expanded Cargo
+- Renamed Extended Fuel Tanks to Expanded Fuel Tanks
+- Renamed Additional Crew Quarters to Expanded Crew Quarters
+
+Version 1.2.2 (June 12, 2017)
+- Vortex system changed to Time Acceleration Field
+- Arcade compatibility with DynaSector 1.3.0
+
+Version 1.2.1 (June 11, 2017)
+- Overhauled IBB staging system under the hood; should resolve all bugs
+- Fixed IBB retreating behavior and other bugs
+- Miscellaneous IBB improvements
+- Reverted changes to Reserve Deployment
+- Improved various odds and ends
+- Buffed Flux Disturber
+
+Version 1.2.0 (June 4, 2017)
+- Updated to support Starsector 0.8.1a
+- Adjusted various ship stats to meet new standards
+- Reverted various Sunder changes
+- Removed Sunder S
+- Reverted tri-tachyon Brawler skin
+- Removed Claw, Claymore, and Halberd wings (Lightning stays)
+- Converted Assault Drone and Flak Drone to built-in fighter wings
+- Albatross now has the Damper Field system
+- Vortex flight deck count increased to 2 from 1
+- Vortex built-in High Resolution Sensors swapped for Surveying Equipment
+- Arachne now has Advanced Targeting Core built-in
+- Arachne now has the Active Flare Launcher system
+- Circe now has the Plasma Jets system
+- Zenith now has the Fast Missile Racks system
+- Zenith synergy mounts changed to missile mounts
+- Zenith top speed increased to 50 from 40
+- Nautilus now has the Phase Skimmer system
+- Removed Expanded Flight Decks
+- Renamed Logistical Conversation to Skeleton Crew, decreased OP cost significantly, halved minimum crew requirement
+- Reworked Maximized Ordnance into Extreme Modifications; no effect on CR but makes the ship malfunction
+- Chronos now has built-in ECM Package and Nav Relay
+- Various balance tweaks transferred from Starsector+
+- Significantly nerfed Recall Teleporter via cooldown and charge mechanic
+- Nerfed Reserve Deployment via longer cooldown
+- Updated sprites for Vanguard and Vindicator
+- Archon is now high-tech style and has the Plasma Jets system (new sprite too)
+- Added Luddic Path variants of the Nebula, Condor, and Wolf
+- Added a couple Remnants portraits
+- Added Shimmer-class Droneship Carrier
+- Added Wall-class Drone
+
+Version 1.1.5 (April 11, 2017)
+- Outer Rim Alliance support
+- Made Circe cheaper to buy/use
+- Arcade changes
+- Improved Dynasector results (breaks saves)
+
+Version 1.1.4 (March 26, 2017)
+- Added Frankenstein IBB
+- Increased Vulture supply cost to 18 from 17
+- Increased Vulture price to 40000 from 38000
+- Updated various scripts to remove frame rate dependence on graphical effects
+- Mission balance adjusted; updated various missions
+- Compatibility fix for some arcade boss shipsystems
+- Reduced Sunder (U) OP to 95, like most other sunders (still has better shields, hybrid slots, and good engine stats)
+
+Version 1.1.3 (February 6, 2017)
+- Decreased Nautilus cost to 9000 from 10000
+- Increased Hecate cost to 9500 from 9000
+- Reduced Hecate speed to 175 from 200 and slightly reduced acceleration
+- Reduced Hecate flux dissipation to 140 from 175
+- Reduced Hecate shield arc to 180 from 210
+- Increased Hornet MRM damage to 375 from 350
+- Updated Hornet MRM AI
+- Improved Archer turn acceleration/stability but reduced maximum turn rate
+- Reduced Archer deceleration
+- Reduced Archer peak time to 300 from 360
+- Changed Archer shield to 240 degree frontal from 120 degree omni
+- Increased Ion Torpedo OP to 6 from 5
+- Reduced Ion Torpedo tracking
+- Updated Ion Torpedo and Heavy Ion Blaster descriptions
+- Fixed IBB portraits
+- Some IBB system improvements
+- Fixed Flare Burst AI to prevent targeting ships
+- Improved Flare Burst Launcher and Flare Gun autofire AI
+- Adjusted some skin prices (particularly D versions)
+- Arcade mission refinements
+
+Version 1.1.2 (January 8, 2017)
+- Lightning Gun nerfed (slightly less damage, now has charges that regenerate)
+- Updated Light Phase Lance sound
+- Updated ship and weapon prices
+- Fixed Gulf IBB wrong mod requirement
+- SCY compatibility update for Duel of the Century
+
+Version 1.1.1 (September 17, 2016)
+- Fixed Hammerhead (XIV) name
+- Made Alastor cheaper
+- Small bugfixes
+
+Version 1.1.0 (May 21, 2016)
+- Added Gryphon (XIV)
+- Added Hammerhead (XIV)
+- General compatibility update
+
+Version 1.0.2 (April 23, 2016)
+- Fixed crash bugs
+
+Version 1.0.1 (April 23, 2016)
+- Fixed crash bugs
+
+Version 1.0.0 (April 22, 2016)
+- Initial release (split from Starsector+)
+- Removed Castle, Rook, Vista, Sloop, Avalon, Summit, Tundra, Tick, Camel, Kestrel, Locomotive, Phalanx, and Sentinel Wing
+- Removed Mobile HQ hull mod (and all variants thereof)
+- Arachne, Archer, Circe, Vindicator, Zenith, Cathedral, and Albatross reworked
+- Removed IBBs: Stheno, Thunderstorm, Lancehead, Cortex/Pinscher, and Psychadelia
+- Reworked IBB stages
+- IBB capture chance is now an option in SWP_OPTIONS.ini
+- Added SWP_OPTIONS.ini option for an early-level IBB capture chance bonus
+- Inferno MIRV rebalanced as a bottomless MRM MIRV
+- Hornet ammo buffed
+- Plasma Flamer range and efficiency buffed
+- Rebalanced Logistical Conservation
+- Onslaught (D) sprite improved
+- New Archer sprite and layout
+- New Arachne sprite and layout
+- Cronus renamed to Chronos

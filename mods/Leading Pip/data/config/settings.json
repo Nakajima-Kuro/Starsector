@@ -1,0 +1,5 @@
+{
+	"plugins":{
+		"TargetingLeadIndicator":"data.scripts.everyframe.TargetingLeadIndicator"
+	}
+}

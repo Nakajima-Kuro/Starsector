@@ -1,0 +1,36 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+PD Assault Conversion,swp_pdconversion,2,0.5,,"offensive, merc","Weapons, Defenses",6000,,,,4,8,12,20,data.scripts.hullmods.SWP_PDConversion,"Causes all point-defense weapons to behave like standard anti-ship weapons, no longer targeting missiles or prioritizing fighters. Increases the ordnance point cost of point-defense weapons by %s/%s/%s, depending on size.
+
+In addition, the range of all formerly-point-defense weapons is extended by %s, and they deal %s more damage to all targets, plus a further %s hit strength when calculating damage reduction from armor.
+
+Not compatible with Integrated Point Defense AI.","Removes PD behavior from all PD weapons; increases ordnance point cost of all PD weapons; and increases all PD range, damage and hit strength.",graphics/swp/hullmods/swp_maxordnance.png
+Extreme Modifications,swp_extrememods,3,0.2,,"special, no_build_in, merc",Special,10000,,,,0,0,0,0,data.scripts.hullmods.SWP_ExtremeModifications,"Allows the installation of %s additional built-in hullmod, but causes a significant chance of malfunctions in combat. Additional critical malfunctions occur when combat readiness falls below %s. Periodic flight deck malfunctions increase the refit time of fighter craft by %s.
+
+Becomes permanent if you reach the built-in hullmod limit.
+
+Can not be installed on civilian ships or ships with Efficiency Overhaul.",Increases OP. Causes malfunctions. Increases refit time.,graphics/swp/hullmods/swp_driveshunt.png
+,,,,,,,,,,,,,,,,,,
+Experimental Reactor,swp_excelsiorreactor,,,,,,,,TRUE,,5,10,20,40,data.scripts.hullmods.SWP_ExcelsiorReactor,"Reduces overload time by %s, but causes the ship to take severe damage while overloaded. Increases vent rate by %s. Damages nearby ships while venting; the amount of destruction depends on the overall vent rate.
+
+The reactor is capable of shunting energies to p-space, granting %s EMP reduction and dissipating %s of beam damage. The ship generates hard flux when dissipating beam damage.","Reduces overload time, increases vent rate, makes venting dangerous. Reduces EMP and beam damage; takes hard flux instead. Ship takes damage when overloaded.",graphics/hullmods/omni_shield_emitter.png
+Phase Drive,swp_phasedrive,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.SWP_PhaseDrive,"This ship tears into p-space using techniques lost to humanity. Activates p-tuned nanomachines to repair the ship while phased. Unlike standard phase systems, the Phase Drive drains flux and greatly increases the ship's speed at high flux levels.
+
+Also reduces phase cloak cooldown by %s.",Phasing is weird.,graphics/hullmods/phase_coils_experimental.png
+Elyon Core,swp_elyon,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.SWP_ElyonCore,"Increases the ship's flux capacity by an amount equal to %s the hull damage it has sustained but not yet repaired.
+
+Also increases the ship's hull integrity by %s.",Increases flux capacity proportional to damage taken. Increases hull integrity.,graphics/swp/hullmods/swp_elyon.png
+Elyon Core,swp_elyon_boss,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.SWP_ElyonCoreBoss,Greatly improves the ship's performance commensurate with the amount of opposition it faces.,Greatly improves the ship's performance commensurate with the amount of opposition it faces.,graphics/swp/hullmods/swp_elyon.png
+Locked,swp_locked,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.SWP_Locked,"This ship has been locked down by onboard failsafe protocols, prohibiting all but the most basic functions necessary to remain spaceworthy.
+
+All control systems have been scrambled and encrypted with incredible thoroughness. Even an Alpha Core would have extreme difficulty restoring this ship to its combat potential.",No CR for you!,graphics/icons/intel/damage.png
+Massive Hull,swp_massivehull,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.SWP_MassiveHull,"This ship is extremely large, affording both a larger array of sensors and a heavy sensor profile. Increases sensor strength and sensor profile by %s.",Increases sensor strength and profile.,graphics/hullmods/vast_bulk.png
+Linked Hull,swp_linkedhull,,,,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.SWP_LinkedHull,Mirrors certain aspects between the parent and child hulls.,,graphics/hullmods/vast_bulk.png
+Ray Core,swp_ray_core,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.SWP_RayCore,Used by the ray drone.,,graphics/hullmods/terminator_core.png
+Arcade,swp_arcade,,,,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.SWP_Arcade,Blocks Safety Overrides.,,graphics/hullmods/generic_mod.png
+Extreme Modifications,swp_extrememods2,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.SWP_ExtremeModifications2,"Allows the installation of %s additional built-in hullmod, but causes a significant chance of malfunctions in combat. Additional critical malfunctions occur when combat readiness falls below %s. Periodic flight deck malfunctions increase the refit time of fighter craft by %s.
+
+This condition is now a permanent fixture of this ship's hull.",Increases OP. Causes malfunctions. Increases refit time.,graphics/swp/hullmods/swp_driveshunt.png
+,,,,,,,,,,,,,,,,,,
+HULLMOD CONFLICT,swp_blockedhullmod,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.SWP_BlockedBlankHullmod,%s: the hullmod you tried to install conflicts with this hull or another previously installed hullmod.,,graphics/icons/intel/investigation.png
+,,,,,,,,,,,,,,,,,,
+Specialized Hull,swp_no_package,,,Imperium,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.SWP_NoPackage,,Incompatible with Imperial Packages.,graphics/imperium/hullmods/ii_no_package.png

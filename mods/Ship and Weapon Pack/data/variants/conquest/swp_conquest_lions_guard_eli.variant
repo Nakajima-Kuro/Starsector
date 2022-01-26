@@ -1,0 +1,79 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 26,
+    "fluxVents": 50,
+    "hullId": "swp_conquest_lions_guard",
+    "hullMods": [
+        "fluxdistributor",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "swp_conquest_lions_guard_eli",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "hurricane",
+                "WS 002": "hurricane"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 019": "salamanderpod",
+                "WS 020": "salamanderpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "hephag",
+                "WS 013": "hephag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 015": "heavyac",
+                "WS 016": "heavyac",
+                "WS 017": "heavyac",
+                "WS 018": "heavyac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "taclaser",
+                "WS 006": "taclaser",
+                "WS 007": "taclaser",
+                "WS 008": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "swp_tripleflak",
+                "WS 014": "swp_tripleflak",
+                "WS 022": "swp_microblaster_array",
+                "WS 023": "swp_microblaster_array"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "lrpdlaser",
+                "WS 004": "lrpdlaser",
+                "WS 009": "lrpdlaser",
+                "WS 010": "lrpdlaser"
+            }
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+id
+# NOTES
+# Whitelist for submarkets targetted by shipping centre to avoid breaking shit.
+
+IndEvo_RepairStorage
+IndEvo_ReqCenterMarket
+IndEvo_DeconstStorage
+IndEvo_EngStorage
+IndEvo_SharedStore
+
+storage
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+{
+    "baseHullId":"swp_striker",
+    "skinHullId":"swp_striker_luddic_church",
+    "hullName":"Striker (LC)",
+    "descriptionId":"swp_striker",  # optional
+    "descriptionPrefix":"This ship has been given Luddic Church markings. Systems modifications are otherwise superficial.",
+    "tags":["LC_bp"],
+    "tech":"Luddic Church",
+    "spriteName":"graphics/swp/ships/striker/swp_striker_luddic_church.png",
+    "removeWeaponSlots":[], 		# ids
+    "removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+    "removeBuiltInMods":[], 		# hullmod ids
+    "removeBuiltInWeapons":[], 		# weapon slot ids
+    "builtInMods":[],
+    "builtInWeapons":{
+    },
+}

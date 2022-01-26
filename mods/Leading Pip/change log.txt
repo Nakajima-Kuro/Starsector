@@ -1,0 +1,26 @@
+Version 1.9.2 (December 12, 2021)
+- Updated for Starsector 0.95.1a
+- Smoother lines
+
+Version 1.9.1 (March 29, 2021)
+- Updated for Starsector 0.95a
+- Migrated version file to custom host (sigh)
+
+Version 1.9.0 (July 11, 2020):
+- Updated for Starsector 0.9.1a
+- Migrated version file to BitBucket
+
+Version 1.8.3 (November 16, 2018):
+- Works in Starsector 0.9a
+
+Version 1.8.2 (April 24, 2018):
+- Toggle key now actually works
+
+Version 1.8.1 (June 4, 2017):
+- Various bugs fixed
+- Works in Starsector 0.8.1a
+
+Version 1.8.0 (April 22, 2017):
+- Started change tracking
+- Various bugs fixed
+- Works in Starsector 0.8a

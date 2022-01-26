@@ -1,0 +1,32 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 4,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "swp_albatross",
+    "hullMods": [
+        "reinforcedhull",
+        "heavyarmor"
+    ],
+    "permaMods": [],
+    "variantId": "swp_albatross_sta",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "hveldriver",
+                "WS0002": "hveldriver"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "heatseeker",
+                "WS0004": "heatseeker"
+            }
+        }
+    ],
+    "wings": []
+}

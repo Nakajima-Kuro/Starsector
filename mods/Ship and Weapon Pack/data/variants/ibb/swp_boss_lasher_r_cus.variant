@@ -1,0 +1,35 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 3,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "swp_boss_lasher_r",
+    "hullMods": [
+        "insulatedengine",
+        "armoredweapons",
+        "blast_doors",
+        "autorepair",
+        "targetingunit","missleracks","eccm"
+    ],
+    "permaMods": ["targetingunit","missleracks","eccm"],
+    "sMods": ["targetingunit","missleracks","eccm"],
+    "variantId": "swp_boss_lasher_r_cus",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "lightneedler",
+                "WS 006": "lightneedler"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "swp_hornet",
+                "WS 004": "swp_hornet"
+            }
+        }
+    ]
+}

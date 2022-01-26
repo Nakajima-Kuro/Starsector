@@ -1,0 +1,28 @@
+{
+    "displayName": "Derelict",
+    "fluxCapacitors": 0,
+    "fluxVents": 6,
+    "hullId": "swp_cathedral_fighter_right",
+    "hullMods": [
+        "blast_doors",
+        "reinforcedhull"
+    ],
+    "permaMods": [],
+    "variantId": "swp_cathedral_fighter_right_starter",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "lightdualac",
+                "WS0003": "lightdualac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "vulcan"}
+        }
+    ],
+    "wings": ["piranha_wing"]
+}

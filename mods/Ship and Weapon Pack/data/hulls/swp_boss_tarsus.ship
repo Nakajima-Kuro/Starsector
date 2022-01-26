@@ -1,0 +1,196 @@
+{
+  "bounds": [
+    97.5,
+    38.5,
+    117,
+    21,
+    102.5,
+    8,
+    41,
+    7.5,
+    41,
+    -12,
+    102,
+    -12,
+    117,
+    -25,
+    94,
+    -43.5,
+    -51.5,
+    -43,
+    -64,
+    -51,
+    -78,
+    -40.5,
+    -78.5,
+    40,
+    -63.5,
+    51,
+    -48.5,
+    38.5,
+    6.5,
+    48,
+    16.5,
+    40.5
+  ],
+  "center": [
+    52,
+    80
+  ],
+  "collisionRadius": 156.643707,
+  "coversColor": "180,255,170,255",
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 64,
+      "location": [
+        -80,
+        36
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 48,
+      "location": [
+        -80,
+        24
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 48,
+      "location": [
+        -80,
+        9
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 64,
+      "location": [
+        -80,
+        -0
+      ],
+      "style": "LOW_TECH",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 48,
+      "location": [
+        -80,
+        -9
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 48,
+      "location": [
+        -80,
+        -24
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 64,
+      "location": [
+        -80,
+        -36
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    }
+  ],
+  "height": 200,
+  "hullId": "swp_boss_tarsus",
+  "hullName": "Carpal",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    18,
+    -0
+  ],
+  "shieldRadius": 136.617172,
+  "spriteName": "graphics/swp/ships/boss/swp_boss_tarsus.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 90,
+      "arc": 250,
+      "id": "WS 001",
+      "locations": [
+        6,
+        38
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 180,
+      "arc": 270,
+      "id": "WS 002",
+      "locations": [
+        -62,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS 003",
+      "locations": [
+        111,
+        21
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS 004",
+      "locations": [
+        111,
+        -25
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -45,
+      "arc": 270,
+      "id": "WS0001",
+      "locations": [
+        6,
+        -18
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    }
+  ],
+  "width": 104
+}

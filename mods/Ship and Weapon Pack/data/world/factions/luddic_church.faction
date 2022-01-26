@@ -1,0 +1,46 @@
+{
+    "hullFrequency":{
+        "tags":{
+            "LC_bp":2,
+        },
+        "hulls":{
+            "buffalo":0,
+            "hound":0,
+            "lasher":0,
+            "swp_nautilus":0,
+            "swp_striker":0,
+            "swp_cathedral":0.15, # Needs to be rare
+            "swp_liberator_luddic_church":0.45, # Should not be more common than the Legion
+        },
+    },
+    "knownShips":{
+        "hulls":[
+            "swp_cathedral",
+            "swp_vindicator_o",
+            "swp_liberator_luddic_church",
+        ],
+    },
+    "priorityShips":{
+        "hulls":[
+            "swp_cathedral",
+            "swp_liberator_luddic_church",
+        ],
+    },
+    "knownFighters":{
+        "fighters":[
+            "swp_partisan_wing",
+        ],
+    },
+    "priorityFighters":{
+        "fighters":[
+            "swp_partisan_wing",
+        ],
+    },
+    "knownWeapons":{
+        "weapons":[
+            "swp_inferno",
+            "swp_ionblaster",
+            "swp_iontorpedo",
+        ],
+    },
+},

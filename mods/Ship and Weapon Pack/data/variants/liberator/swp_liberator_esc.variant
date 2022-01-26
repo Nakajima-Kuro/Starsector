@@ -1,0 +1,66 @@
+{
+    "displayName": "Escort",
+    "fluxCapacitors": 20,
+    "fluxVents": 50,
+    "hullId": "swp_liberator",
+    "hullMods": [
+        "targetingunit",
+        "ballistic_rangefinder",
+        "unstable_injector"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "swp_liberator_esc",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "arbalest",
+                "WS0006": "arbalest"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "swarmer",
+                "WS0009": "swarmer",
+                "WS0010": "swarmer",
+                "WS0011": "swarmer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "arbalest",
+                "WS0004": "arbalest"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "lightag",
+                "WS0013": "lightag",
+                "WS0014": "lightag",
+                "WS0015": "lightag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "swp_tripleflak",
+                "WS0002": "swp_tripleflak"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "dualflak"}
+        }
+    ],
+    "wings": ["swp_partisan_wing"]
+}

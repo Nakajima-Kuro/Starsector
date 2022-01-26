@@ -1,0 +1,7 @@
+id,type,text1,text2,text3,notes
+IndEvo_JumpRift,CUSTOM,"A massive rip in the fabric of space leading to hyperspace. It was created by firing the Rift Generator, moving the planet that once stood here to a different star system.",,,
+IndEvo_arsenalStation,CUSTOM,"An abandoned arsenal station, built to outlast whatever weapons a long dead enemy would have brought to bear. A cursory scan indicates that it has been cold and dead for tens of cycles at the very least, possibly hundreds. Closer inspection may yield salvage.",,,
+IndEvo_orbitalLaboratory,CUSTOM,"An abandoned orbital laboratory. Stations like this were built to keep experimental tech away from prying eyes. A cursory scan indicates that it has been cold and dead for tens of cycles at the very least, possibly hundreds. Closer inspection may yield salvage.",,,
+,,,,,
+IndEvo_parts,RESOURCE,"Old starship parts which can no longer be properly produced by the decaying sector infrastructure. Their only reliable source is the deconstruction of existing ships. A shortage of these will not prohibit the construction of new ships by much, but it will seriously affect their quality.",,,
+IndEvo_rare_parts,RESOURCE,"Ancient or hightly advanced technology which can no longer be manufactured in the persean sector. These components are essential to building new, pristine spaceships - they do not get traded on the open market, and are the reason Salvage Yards are usually viciously guarded.",,,

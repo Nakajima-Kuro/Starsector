@@ -1,0 +1,86 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 20,
+    "fluxVents": 44,
+    "goalVariant": true,
+    "hullId": "swp_victory",
+    "hullMods": [
+        "magazines",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "swp_victory_sta",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "swp_klutotekhnes",
+                "WS0002": "swp_klutotekhnes"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "salamanderpod",
+                "WS0012": "salamanderpod",
+                "WS0013": "salamanderpod",
+                "WS0014": "salamanderpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "multineedler",
+                "WS0004": "multineedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "heavymauler",
+                "WS0008": "heavymauler",
+                "WS0009": "heavymauler",
+                "WS0010": "heavymauler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "gravitonbeam",
+                "WS0006": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "devastator",
+                "WS0016": "devastator"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0017": "pdburst",
+                "WS0018": "pdburst",
+                "WS0019": "pdburst",
+                "WS0020": "pdburst",
+                "WS0021": "pdburst",
+                "WS0022": "pdburst",
+                "WS0023": "pdburst",
+                "WS0024": "pdburst",
+                "WS0025": "pdburst",
+                "WS0026": "pdburst",
+                "WS0027": "pdburst",
+                "WS0028": "pdburst"
+            }
+        }
+    ]
+}

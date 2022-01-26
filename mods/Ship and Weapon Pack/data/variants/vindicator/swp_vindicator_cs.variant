@@ -1,0 +1,56 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 29,
+    "fluxVents": 30,
+    "hullId": "swp_vindicator",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "swp_vindicator_cs",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "swp_gungnir"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "squall"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "swarmer",
+                "WS0008": "swarmer"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "swarmer",
+                "WS0006": "swarmer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "lightdualmg",
+                "WS0010": "lightdualmg",
+                "WS0011": "lightdualmg",
+                "WS0012": "lightdualmg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "dualflak",
+                "WS0004": "dualflak"
+            }
+        }
+    ]
+}

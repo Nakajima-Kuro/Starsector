@@ -1,0 +1,15 @@
+{
+    "displayName": "Q-Ship",
+    "fluxCapacitors": 0,
+    "fluxVents": 2,
+    "hullId": "swp_buffalo_lions_guard",
+    "hullMods": ["converted_hangar"],
+    "permaMods": [],
+    "variantId": "swp_buffalo_lions_guard_qs",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS 001": "taclaser"}
+    }],
+    "wings": ["swp_partisan_wing"]
+}

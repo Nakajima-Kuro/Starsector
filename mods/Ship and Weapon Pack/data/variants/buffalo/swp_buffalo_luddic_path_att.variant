@@ -1,0 +1,18 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "swp_buffalo_luddic_path",
+    "hullMods": [
+        "converted_hangar",
+        "reinforcedhull"
+    ],
+    "permaMods": [],
+    "variantId": "swp_buffalo_luddic_path_att",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS 001": "lightag"}
+    }],
+    "wings": ["talon_wing"]
+}

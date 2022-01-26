@@ -1,0 +1,170 @@
+{
+  "hullName": "Flagellator",
+  "hullId": "tahlan_Flagellator",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/tahlan/ships/tahlan_Flagellator.png",
+  "style": "LOW_TECH",
+  "height": 174,
+  "width": 182,
+  "center": [91, 97.5],
+  "collisionRadius": 115.5,
+  "shieldCenter": [0, 0.5],
+  "shieldRadius": 108.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rugged"
+  ],
+  "builtInWeapons": {
+    "WS0008": "tahlan_diffusegraviton"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [50.5, 32]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [50.5, -32]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 109,
+      "angle": 9.5,
+      "locations": [2.5, 44]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 109,
+      "angle": -9.5,
+      "locations": [2.5, -44]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-8.5, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": -54,
+      "locations": [-8.5, -72]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": 54,
+      "locations": [-8.5, 72]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [54, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [52, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-36.5, 56.5],
+      "length": 43.534462,
+      "width": 30.016708,
+      "angle": 150.5,
+      "contrailSize": 30.016708,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-36.5, -56.5],
+      "length": 43.534462,
+      "width": 30.016708,
+      "angle": -150.5,
+      "contrailSize": 30.016708,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-81.5, 11],
+      "length": 44,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-81.5, -11],
+      "length": 44,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-73.5, 22],
+      "length": 27,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-73.5, -22],
+      "length": 27,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -75.5, -8,
+    -73, -40,
+    -45, -44.5,
+    -9, -90.5,
+    73.5, -52,
+    46.5, -21,
+    64, -8,
+    64, 8,
+    46.5, 21,
+    73.5, 52,
+    -9, 90.5,
+    -45, 44.5,
+    -73, 40,
+    -75.5, 8,
+    -97, -0
+  ]
+}

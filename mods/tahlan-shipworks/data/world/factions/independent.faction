@@ -1,0 +1,91 @@
+{
+	
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+			"tahlan_knights":0.1,
+		},
+		"hulls":{
+			#"tahlan_vendetta_gh":0.1,
+			"tahlan_Glint":0.5,
+			"tahlan_Nibelung":0.4,
+			"tahlan_Vale":0.3,
+			"tahlan_Ristreza_b":0,
+			"tahlan_Castigator":0.6,
+			"tahlan_Izanami":0.5,
+			"tahlan_Bento":0.5,
+			"tahlan_darnus":0.3,
+			"tahlan_providence":0.5,
+			"tahlan_throne":0.5,
+			"tahlan_skyrend":0.3,
+			"tahlan_nelson":0.7,
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		#"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp"],
+		#"hulls":[],
+	},
+	"knownShips":{
+		"tags":["tahlan_knights"],
+		"hulls":[
+			#"tahlan_vendetta_gh", #not included in the BP package, since it only loads with certain mods
+			"tahlan_Castella",
+			"tahlan_Kodai",
+			"tahlan_Ingress",
+			"tahlan_Defiance",
+			"tahlan_Glint",
+			"tahlan_Nibelung",
+			"tahlan_Vale",
+			"tahlan_Castigator",
+			"tahlan_Hresvelgr",
+			"tahlan_darnus",
+			"tahlan_providence",
+			"tahlan_throne",
+			"tahlan_skyrend",
+			"tahlan_nelson",
+			"tahlan_tower"
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		#"tags":[],
+		#"hulls":[],
+	},
+	
+	"knownFighters":{
+		"tags":["tahlan_knights"],
+		#"fighters":[],
+	},
+	"priorityFighters":{
+		#"tags":[],
+		#"fighters":[],
+	},
+	
+	"knownWeapons":{
+		"tags":["tahlan_knights"],
+		"weapons":[
+			"tahlan_armiger",
+			"tahlan_efreet",
+			"tahlan_amboss",
+			"tahlan_titanomachy",
+			"tahlan_breaker",
+			"tahlan_ryza",
+			"tahlan_mezoa",
+			"tahlan_vesuvio",
+		],
+	},
+	"priorityWeapons":{
+		#"tags":[],
+		#"weapons":[],
+	},
+	
+	"knownHullMods":{
+		#"tags":["base_bp", "independent"],
+		#"hullMods":[],
+	},
+
+},	

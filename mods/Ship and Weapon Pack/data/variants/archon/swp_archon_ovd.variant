@@ -1,0 +1,34 @@
+{
+    "displayName": "Overdriven",
+    "fluxCapacitors": 0,
+    "fluxVents": 18,
+    "goalVariant": true,
+    "hullId": "swp_archon",
+    "hullMods": ["safetyoverrides"],
+    "permaMods": [],
+    "variantId": "swp_archon_ovd",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "miningblaster",
+                "WS0002": "miningblaster",
+                "WS0003": "miningblaster"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "sabot",
+                "WS0005": "sabot"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "pdlaser"}
+        }
+    ]
+}

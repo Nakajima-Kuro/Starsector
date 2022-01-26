@@ -1,0 +1,60 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 23,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "swp_boss_frankenstein",
+    "hullMods": ["targetingunit","eccm","heavyarmor","missleracks","solar_shielding"],
+    "permaMods": ["targetingunit","eccm","heavyarmor","missleracks","solar_shielding"],
+    "sMods": ["targetingunit","eccm","heavyarmor","missleracks","solar_shielding"],
+    "variantId": "swp_boss_frankenstein_cus",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "swp_gungnir",
+                "WS0002": "swp_gungnir_r"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "harpoonpod",
+                "WS0010": "harpoonpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "sabotpod",
+                "WS0006": "sabotpod",
+                "WS0007": "sabotpod",
+                "WS0008": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "hveldriver",
+                "WS0004": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0011": "lightneedler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "vulcan",
+                "WS0013": "vulcan"
+            }
+        }
+    ]
+}

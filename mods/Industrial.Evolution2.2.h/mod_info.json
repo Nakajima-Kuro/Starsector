@@ -1,0 +1,10 @@
+{
+	"id":"IndEvo", # internal id
+	"name":"Industrial.Evolution", # displayed to the player
+	"author":"SirHartley",
+	"version":"2.2.h",
+	"description":"Expands the available campaign content through addition of buildings, functions and exploration content.",
+	"gameVersion":"0.95.1a",
+	"jars":["jars/IndEvo.jar"],
+	"modPlugin":"com.fs.starfarer.api.plugins.IndEvo_modPlugin",
+}

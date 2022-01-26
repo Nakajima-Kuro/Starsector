@@ -1,0 +1,15 @@
+{
+    "knownWeapons":{
+        "weapons":[
+            "swp_contender",
+            "swp_hornet",
+            "swp_inferno",
+            "swp_microblaster",
+            "swp_microblaster_array",
+            "swp_plasmaflame",
+            "swp_tornado",
+            "swp_trebuchet",
+            "swp_tripleflak",
+        ],
+    },
+},

@@ -1,0 +1,36 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 2,
+    "fluxVents": 20,
+    "hullId": "swp_vortex",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "swp_vortex_att",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "pulselaser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "irpulse",
+                "WS0005": "irpulse"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "swp_lightphaselance",
+                "WS0003": "swp_lightphaselance"
+            }
+        }
+    ],
+    "wings": [
+        "swp_hexblade_wing",
+        "wasp_wing"
+    ]
+}

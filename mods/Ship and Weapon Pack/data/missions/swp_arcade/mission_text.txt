@@ -1,0 +1,15 @@
+Kick ass and take names! Fight through a horde of random ships, elite mooks, and seven boss fights.
+
+You earn points by destroying ships and bosses. Chain kills together to gain a combo multiplier for a massive score! The point multiplier increases with each difficulty level. If you beat the final boss, any unused powerups are worth 5000 points each.
+
+Yellow: Armored. 2x Points.
+Green: Shielded. 2x Points.
+Red: Powered. 2x Points.
+Blue: Elite. 4x Points.
+
+Hidden ends await you if you eschew the use of one or both types of powerups until the final boss...
+
+Make sure floating messages are enabled.
+
+
+Brought to you by DarkRevenant, Cycerin, HELMUT, and Debido.

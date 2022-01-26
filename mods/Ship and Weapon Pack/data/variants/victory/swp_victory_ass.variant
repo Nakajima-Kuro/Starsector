@@ -1,0 +1,74 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 40,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "swp_victory",
+    "hullMods": [
+        "heavyarmor",
+        "armoredweapons"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "swp_victory_ass",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "swp_klutotekhnes",
+                "WS0002": "swp_klutotekhnes"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "swp_inferno",
+                "WS0012": "swp_inferno",
+                "WS0013": "swp_inferno",
+                "WS0014": "swp_inferno"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "heavyac",
+                "WS0006": "heavyac",
+                "WS0007": "heavyac",
+                "WS0008": "heavyac",
+                "WS0009": "heavyac",
+                "WS0010": "heavyac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "devastator",
+                "WS0004": "devastator",
+                "WS0015": "devastator",
+                "WS0016": "devastator"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0017": "lrpdlaser",
+                "WS0018": "lrpdlaser",
+                "WS0019": "lrpdlaser",
+                "WS0020": "lrpdlaser",
+                "WS0021": "lrpdlaser",
+                "WS0022": "lrpdlaser",
+                "WS0023": "lrpdlaser",
+                "WS0024": "lrpdlaser",
+                "WS0025": "lrpdlaser",
+                "WS0026": "lrpdlaser",
+                "WS0027": "lrpdlaser",
+                "WS0028": "lrpdlaser"
+            }
+        }
+    ]
+}

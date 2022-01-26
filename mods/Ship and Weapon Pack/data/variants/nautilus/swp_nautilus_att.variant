@@ -1,0 +1,25 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 5,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "swp_nautilus",
+    "hullMods": ["militarized_subsystems"],
+    "permaMods": [],
+    "variantId": "swp_nautilus_att",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "swp_lightphaselance",
+                "WS0002": "swp_lightphaselance"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "sabot"}
+        }
+    ]
+}

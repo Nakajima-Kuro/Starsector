@@ -1,0 +1,35 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 3,
+    "fluxVents": 20,
+    "hullId": "swp_arachne",
+    "hullMods": [
+        "missleracks"
+    ],
+    "quality": 1,
+    "variantId": "swp_arachne_ass",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "heavyblaster"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "annihilator",
+                "WS0004": "annihilator"
+            }
+        }
+    ]
+}

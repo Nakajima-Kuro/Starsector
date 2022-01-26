@@ -1,0 +1,46 @@
+{
+    "hullFrequency":{
+        "hulls":{
+            "swp_archer":2,
+            "swp_vulture":2,
+            "swp_victory":0.5,
+        },
+    },
+    "knownShips":{
+        "hulls":[
+            "odyssey", # should be here!
+            "swp_archon",
+            "swp_chronos",
+            "swp_eos",
+            "swp_nightwalker",
+            "swp_sunder_u",
+            "swp_victory",
+            "swp_vindicator_o",
+            "swp_vortex",
+        ],
+    },
+    "priorityShips":{
+        "hulls":[
+            "swp_chronos",
+            "swp_victory",
+        ],
+    },
+    "knownFighters":{
+        "fighters":[
+            "swp_drake_wing",
+            "swp_falx_wing",
+        ],
+    },
+    "knownWeapons":{
+        "weapons":[
+            "swp_flareburst",
+            "swp_inferno",
+            "swp_ionblaster",
+            "swp_iontorpedo",
+            "swp_lightninggun",
+            "swp_lightphaselance",
+            "swp_trebuchet",
+            "swp_tripleflak",
+        ],
+    },
+},

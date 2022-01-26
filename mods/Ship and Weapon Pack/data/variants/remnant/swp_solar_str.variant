@@ -1,0 +1,85 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 0,
+    "fluxVents": 48,
+    "hullId": "swp_solar",
+    "hullMods": [
+        "unstable_injector",
+        "auxiliarythrusters"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "swp_solar_str",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0010": "swp_ionblaster",
+                "WS0011": "swp_ionblaster"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "hurricane",
+                "WS0004": "hurricane"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "swp_tornado",
+                "WS0009": "swp_tornado",
+                "WS0012": "swp_tornado",
+                "WS0013": "swp_tornado",
+                "WS0018": "heatseeker",
+                "WS0019": "heatseeker"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0005": "typhoon"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "plasma",
+                "WS0002": "plasma"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "heavyblaster",
+                "WS0007": "heavyblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0014": "lrpdlaser",
+                "WS0015": "lrpdlaser",
+                "WS0016": "lrpdlaser",
+                "WS0017": "lrpdlaser",
+                "WS0020": "lrpdlaser",
+                "WS0021": "lrpdlaser",
+                "WS0022": "swp_microblaster",
+                "WS0023": "swp_microblaster",
+                "WS0024": "swp_microblaster",
+                "WS0025": "swp_microblaster"
+            }
+        }
+    ],
+    "wings": [
+        "flash_wing",
+        "flash_wing",
+        "flash_wing"
+    ]
+}

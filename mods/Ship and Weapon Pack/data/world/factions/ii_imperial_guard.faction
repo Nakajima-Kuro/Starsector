@@ -1,0 +1,24 @@
+{
+    "knownWeapons":{
+        "weapons":[
+            "swp_ionblaster",
+            "swp_iontorpedo",
+            "swp_lightphaselance",
+            "swp_trebuchet",
+        ],
+    },
+    "priorityWeapons":{
+        "weapons":[
+            # Common weapons that should appear just as often as II
+            "swp_contender",
+            "swp_hornet",
+            "swp_plasmaflame",
+            "swp_tornado",
+            # Rare weapons that should appear just as often as II
+            "swp_ionblaster",
+            "swp_iontorpedo",
+            "swp_lightphaselance",
+            "swp_trebuchet",
+        ],
+    },
+},

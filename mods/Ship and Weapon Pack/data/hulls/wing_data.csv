@@ -1,0 +1,8 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+swp_hexblade_wing,swp_hexblade_Fighter,"fighter4, fighter, high, hightech_bp, merc",2,,8,14,CLAW,4000,400,,3,FIGHTER,Heavy Fighter,15,10000,,,,,,,,,,,,,4
+swp_partisan_wing,swp_partisan_Escort,"interceptor3, interceptor, mid, midline_bp, merc",1,,5,8,V,4000,300,400,2,INTERCEPTOR,Escort Interceptor,12,7000,,,,,,,,,,,,,4
+swp_drake_wing,swp_drake_Interceptor,"interceptor4, interceptor, low, rare_bp, merc",1,,7,10,V,4000,300,600,3,INTERCEPTOR,Assault Interceptor,8,8000,,,,,,,,,,,,,6
+swp_falx_wing,swp_falx_Interceptor,"interceptor5, interceptor, high, rare_bp, hist1t, merc",2,,8,16,V,6000,400,700,2,INTERCEPTOR,Interceptor,15,11000,,,,,,,,,,,,,2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+swp_assault_drone_wing,swp_drone_assault,"no_drop, no_sell, low",1,,5,0,CLAW,750,300,,3,FIGHTER,Assault Drone,10,4000,,,,,,,,,,,,,23
+swp_flakdrone_wing,swp_flakdrone,"no_drop, no_sell, mid",2,,5,0,BOX,2000,600,,2,SUPPORT,Flak Drone,15,6000,,,,,,,,,,,,,24

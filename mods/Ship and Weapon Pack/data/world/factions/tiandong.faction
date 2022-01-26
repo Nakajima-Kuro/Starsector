@@ -1,0 +1,14 @@
+{
+    "knownWeapons":{
+        "weapons":[
+            "swp_inferno",
+            "swp_tripleflak",
+        ],
+    },
+    "knownHullMods":{
+        "hullMods":[
+            "swp_extrememods",
+            "swp_pdconversion",
+        ],
+    },
+},

@@ -1,0 +1,16 @@
+{
+	"baseHullId":"swp_excelsior",
+	"skinHullId":"swp_excelsior_boss",
+    "hullName":"",
+	"hullDesignation":"Hyperfrigate",
+	"addHints":[UNBOARDABLE],
+    "tags":["no_autofit", "no_dealer", "restricted"],
+    "fleetPoints":40,
+    "removeWeaponSlots":[],         # ids
+    "removeEngineSlots":[],         # indices, as engine slots have no id in the .ship file
+    "removeBuiltInMods":[],         # hullmod ids
+    "removeBuiltInWeapons":[],      # weapon slot ids
+    "builtInMods":["reinforcedhull", "solar_shielding", "swp_elyon_boss"],
+	"builtInWeapons":{
+    },
+}

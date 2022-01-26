@@ -1,0 +1,20 @@
+{
+   "?": "help",
+   "aap": "addskillpoints",
+   "acp": "addcommandpoints",
+   "addmod": "addhullmod",
+   "addmodspec": "addhullmod",
+   "adjustrelationship": "adjustrelation",
+   "allmods": "allhullmods",
+   "allmodspecs": "allhullmods",
+   "aop": "addordnancepoints",
+   "ar": "adjustrelation",
+   "asp": "addskillpoints",
+   "br": "blockretreat",
+   "ia": "infiniteammo",
+   "if": "infiniteflux",
+   "nc": "nocooldown",
+   "setrelationship": "setrelation",
+   "sr": "setrelation",
+   "tc": "god;infiniteammo;infiniteflux;reveal"
+}

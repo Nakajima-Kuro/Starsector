@@ -1,0 +1,14 @@
+{
+    "knownShips":{
+        "hulls":[
+            "swp_archon",
+            "swp_eagle_black",
+            "swp_eagle_white",
+            "swp_eos",
+            "swp_nightwalker",
+            "swp_sunder_u",
+            "swp_vindicator_o",
+            "swp_vortex",
+        ],
+    },
+},

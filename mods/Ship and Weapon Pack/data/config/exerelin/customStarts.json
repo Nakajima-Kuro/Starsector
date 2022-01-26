@@ -1,0 +1,12 @@
+{
+	"starts":[
+		{
+			"id":"swp_cathedralStart",
+			"name":"Reconstruction of Notre Dame",
+			"difficulty":"Easy",
+			"desc":"Having found a derelict Explorer-class drifting in the depths of space, you brought her back to the Church of Galactic Redemption to be reborn as a deliverer of Ludd's teachings. To reward you, the Knights of Ludd commissioned you as the ship's new commander, tasking you with returning the Notre Dame to glory and carving a path of deliverance through the Persean Sector.\n\nSpecial: Restore the Notre Dame, one d-mod at a time, at any friendly dockyard.",
+			"className":"data.scripts.campaign.customstart.SWP_CathedralStart",
+			"factionId":"luddic_church",
+		},
+	],
+}

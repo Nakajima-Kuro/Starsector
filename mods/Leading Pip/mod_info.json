@@ -1,0 +1,18 @@
+{
+    "id": "leadingPip",
+    "name": "Leading Pip",
+    "author": "DarkRevenant",
+    "version": "1.9.1",
+    "utility": "true",
+    "description": "Adds a target leading pip.",
+    "gameVersion":"0.95.1a-RC5",
+    "jars":["jars/LeadingPip.jar"],
+    "modPlugin":"data.scripts.TLIModPlugin",
+    "dependencies": [
+        {
+            "id": "lw_lazylib",
+            "name": "LazyLib",
+            "version": "2.7b"
+        },
+    ],
+}

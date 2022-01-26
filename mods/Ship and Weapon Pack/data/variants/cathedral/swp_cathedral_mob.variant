@@ -1,0 +1,52 @@
+{
+    "displayName": "Mobile",
+    "fluxCapacitors": 0,
+    "fluxVents": 12,
+    "goalVariant": true,
+    "hullId": "swp_cathedral",
+    "hullMods": [
+        "auxiliarythrusters",
+        "unstable_injector",
+        "eccm"
+    ],
+    "modules": [
+        {"SECTION_BASE": "swp_cathedral_base_std"},
+        {"SECTION_REAR": "swp_cathedral_rear_arm"},
+        {"SECTION_GUN_LEFT": "swp_cathedral_gun_left_ass"},
+        {"SECTION_GUN_RIGHT": "swp_cathedral_gun_right_ass"},
+        {"SECTION_FIGHTER_LEFT": "swp_cathedral_fighter_left_str"},
+        {"SECTION_FIGHTER_RIGHT": "swp_cathedral_fighter_right_str"},
+        {"SECTION_FRONT": "swp_cathedral_front_arm"}
+    ],
+    "permaMods": [],
+    "variantId": "swp_cathedral_mob",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "swp_redeemer"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "pilum",
+                "WS0003": "pilum"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "heatseeker",
+                "WS0005": "heatseeker",
+                "WS0006": "heatseeker",
+                "WS0007": "heatseeker"
+            }
+        }
+    ],
+    "wings": [
+        "warthog_wing",
+        "warthog_wing"
+    ]
+}

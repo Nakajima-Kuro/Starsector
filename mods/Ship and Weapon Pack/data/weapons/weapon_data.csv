@@ -1,0 +1,64 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+Reliant HMG,swp_reliant,0,,75,450,,6,,1,60,1,,,,KINETIC,3,,0,0.12,1,,0,10,0.2,15,,1500,,,5,,,PD,"pd0, kinetic0, base_bp",,,,Point Defense,,,,,,,,,,4350
+Contender Cannon,swp_contender,1,,125,500,,150,,10,25,3,,,,HIGH_EXPLOSIVE,125,,0,2.5,1,,0,5,2,10,,800,,,10,,,,"he4, strike0, base_bp",,,,Anti Armor,,,,,,,,,,4351
+Plasma Flamer,swp_plasmaflame,1,,1000,450,,30,,0,10,9,100,10,50,ENERGY,15,,0,0.05,9999,0.05,0,0,0,0,,600,,,10000,,,DO_NOT_CONSERVE,"energy12, SR, lowtech_bp, merc",,,,General,,,,,,,,,,4352
+Flare Gun,swp_flaregun,0,,50,400,,10,100,0,40,1,50,,,ENERGY,0,0,0,5,10,0.1,60,60,0,0,,150,300,3,1,,,PD,"pd2, utility1, base_bp",,,,Anti Missile,,,,,Each flare has a %s chance to divert nearby missiles.,10%,,,TRUE,4353
+Ion Torpedo Rack,swp_iontorpedo,3,0.5,600,1300,,1000,4500,25,10,6,2,,,FRAGMENTATION,0,,0,1,1,,0,0,0,0,,300,50,7,300,,,"STRIKE,USE_VS_FRIGATES,DO_NOT_AIM","strike9, utility8, missile1, rare_bp, hist1t, merc",,,,Torpedo (Suppression),Medium,Poor,,,"Hits on hull or armor arc to weapons and engines, dealing extra damage equal to the original hit. Hits on shields have a chance to generate shield-penetrating arcs based on the target's hard flux level.",,Hits on hull or armor raise the target's flux level by %s. Hits on shields raise hard flux instead.,1000,TRUE,4354
+Hornet MRM,swp_hornet,1,,300,2000,,400,,10,50,5,8,,,HIGH_EXPLOSIVE,0,,0,3.6,2,0.4,0,0,0,0,,300,300,10.5,100,,,DO_NOT_AIM,"missile8, strike1, missile_bp, merc",,,,Saturation,Medium,Excellent,,,,,,,,4355
+Inferno MIRV Launcher,swp_inferno,1,,1750,2500,,300,,15,20,10,,,,HIGH_EXPLOSIVE,0,,0,15,1,,0,0,0,0,,250,250,16,200,,,"ANTI_FTR,DO_NOT_AIM","utility13, missile8, rare_bp, hist1t, merc",,,,Anti Small Craft,Fast,Excellent,,,,,,,,4356
+Tornado Hornet Launcher,swp_tornado,1,,1200,2000,,400,,10,30,12,40,,,HIGH_EXPLOSIVE,0,,0,6.8,4,0.4,0,0,0,0,,300,300,10.5,100,,,DO_NOT_AIM,"missile13, strike6, missile_bp, merc",,,,Saturation,Medium,Excellent,,,,,,,,4357
+Flare Burst Launcher,swp_flareburst,2,,1500,1500,,150,,5,25,12,10,,,ENERGY,0,,0,10,1,,0,0,0,0,,400,150,7,250,,,PD,"pd13, utility8, rare_bp, merc",,,,Anti Missile (Area),Fast,Excellent,,,Each flare has a %s chance to divert nearby missiles.,30%,,,,4358
+Trebuchet LRM Launcher,swp_trebuchet,2,0.7,7500,5000,,900,900,20,10,24,30,,,ENERGY,0,,0,15,3,0.75,0,0,0,0,,350,150,25,300,,,"DO_NOT_AIM, CONSERVE_1","missile20, strike13, utility15, rare_bp, hist1t, merc",,,,Long Range Support (Area),Fast,Medium,,,"Deals up to 900 energy damage and 900 EMP to ships and fighters in a large area, upon impact.",900 | 900,,,,4359
+Lightning Gun,swp_lightninggun,3,0.3,2750,1000,,200,250,100,10,15,12,0.6,3,ENERGY,350,,0.25,0.25,3,0.25,0,0,0,0,,1000,,,,,,,"energy14, LR, rare_bp, hist1t, merc",,,,General,,,,,,,,,,4360
+Heavy Ion Blaster,swp_ionblaster,3,0.6,2500,550,,500,3000,20,12,15,,,,ENERGY,900,,0.5,8,1,,0,0,0,0,,1250,,,300,,,"STRIKE,USE_VS_FRIGATES,FIRE_WHEN_INEFFICIENT,GROUP_ALTERNATING","strike14, energy12, SR, rare_bp, merc",SR_strike_only,,,Strike (Suppression),,,,,"Hits on hull or armor arc to weapons and engines, dealing extra damage equal to the original hit. Hits on shields have a chance to generate shield-penetrating arcs based on the target's hard flux level.",,,,,4361
+Aegis Flak Cannon,swp_tripleflak,2,,4500,600,,400,,10,30,18,,,,FRAGMENTATION,100,,0,0.4,1,,0,15,3,15,,700,,,50,,,PD,"pd18, SR, rare_bp, hist1t, merc",,,,Point Defense (Area),,,,,,,,,,4362
+Light Phase Lance,swp_lightphaselance,2,,600,500,650,,,0,30,7,,,,ENERGY,,850,0.25,0.75,0.5,3,,,,,3200,,,,,,,,"energy9, beam8, rare_bp, merc",,,,General,,,,,,,,,,4363
+Mini-Blaster,swp_microblaster,0,,100,400,,20,,0,45,1,,,,ENERGY,15,,0,0.7,3,0.15,2.5,2.5,0,0,,800,,,,,,"PD,PD_ALSO","pd0, energy0, base_bp",,,,Defense,,,,,Will target missiles if no other targets are in range.,,,,,4364
+Mini-Blaster Array,swp_microblaster_array,0,,700,450,,20,,0,40,6,,,,ENERGY,15,,0,0.15,1,,2.5,2.5,0,0,,800,,,,,,"PD,PD_ALSO","pd8, energy6, SR, base_bp",,,,Defense,,,,,Will target missiles if no other targets are in range.,,,,,666
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Redeemer,swp_redeemer,2,,11000,10000,,2000,,1000,2,40,,,,HIGH_EXPLOSIVE,0,,0,12,1,,0,0,0,0,,175,100,60,600,,,"SYSTEM,SHOW_IN_CODEX,DO_NOT_AIM",,,,,Long Range Support,Slow,Very Poor,,,"Launches %s submunitions that deal %s energy and EMP damage each. Hits on hull or armor from these submunitions arc to weapons and engines, dealing extra damage equal to the original hit.",8 | 175,,,,4365
+Redeemer Sub-Missile,swp_redeemer_sub,2,,,1400,,175,175,10,,,,,,ENERGY,0,,0,1,1,,0,0,0,0,,240,100,9,200,,,SYSTEM,,,,,,,,,,,,,,,10
+Flux Shunt Cannon,swp_excelsiorcannon,3,,9000,600,,220,220,220,20,50,,,,ENERGY,20,,0,0.25,1,,0,0,0,0,,1000,,,100,,,SYSTEM,restricted,swp_FSC_only,Unknown,,General,,,Narrow adjustments,,Drains flux with each shot. Damage per shot scales between %s and %s depending on current flux level (up to %s).,20 | 220 | 6000,,,,4366
+Flux Shunt Cannon,swp_excelsiorcannon_0,3,,,600,,20,20,20,0,25,,,,ENERGY,20,,0,0.25,1,,0,0,0,0,,1000,,,100,,,SYSTEM,,,,,,,,,,,,,,,4366.1
+Flux Shunt Cannon,swp_excelsiorcannon_4,3,,,625,,60,60,60,0,25,,,,ENERGY,40,,0,0.25,1,,0,0,0,0,,1100,,,125,,,SYSTEM,,,,,,,,,,,,,,,4366.2
+Flux Shunt Cannon,swp_excelsiorcannon_12,3,,,650,,100,100,100,0,25,,,,ENERGY,60,,0,0.25,1,,0,0,0,0,,1200,,,150,,,SYSTEM,,,,,,,,,,,,,,,4366.3
+Flux Shunt Cannon,swp_excelsiorcannon_24,3,,,675,,140,140,140,0,25,,,,ENERGY,80,,0,0.25,1,,0,0,0,0,,1300,,,175,,,SYSTEM,,,,,,,,,,,,,,,4366.4
+Flux Shunt Cannon,swp_excelsiorcannon_40,3,,,700,,180,180,180,0,25,,,,ENERGY,100,,0,0.25,1,,0,0,0,0,,1400,,,200,,,SYSTEM,,,,,,,,,,,,,,,4366.5
+Flux Shunt Cannon,swp_excelsiorcannon_60,3,,,725,,220,220,220,0,25,,,,ENERGY,120,,0,0.25,1,,0,0,0,0,,1500,,,225,,,SYSTEM,,,,,,,,,,,,,,,4366.6
+Flak Cannon (Drone),swp_droneflak,1,,1000,600,,200,,10,120,8,3,0.6,,FRAGMENTATION,50,,0,1,1,,0,10,2,10,,700,,,30,,,"SYSTEM, PD",,,,,Point Defense (Area),,,,,,,,,,4
+Gungnir Cannon,swp_gungnir,2,,8000,1500,,1500,,100,5,30,,,,HIGH_EXPLOSIVE,1500,,0,4,1,,0,5,2.5,1,,550,,,300,1,,"SYSTEM,SHOW_IN_CODEX",,swp_GC_only,,,Anti Armor (Area),,,,,Splits into %s submunitions that deal %s high explosive damage each.,8 | 250,,,,4364
+Gungnir Cannon,swp_gungnir_r,2,,8000,1500,,1500,,100,5,30,,,,HIGH_EXPLOSIVE,1500,,0,4,1,,0,5,2.5,1,,550,,,300,1,,SYSTEM,,swp_GC_only,,,Anti Armor (Area),,,,,Splits into %s submunitions that deal %s high explosive damage each.,8 | 250,,,,4364
+Gungnir Cannon Sub,swp_gungnir_sub,2,,,700,,250,,10,0,,,,,HIGH_EXPLOSIVE,,,0,1,1,,0,0,0,0,,700,,,25,,,SYSTEM,,,,,,,,,,,,,,,4.75
+Klutotekhnes Assault Gun,swp_klutotekhnes,1,,6000,900,,120,,5,15,30,30,3,15,HIGH_EXPLOSIVE,80,,0,0.15,1,,0,12.5,1.5,12.5,,800,,,50,,,"SYSTEM,SHOW_IN_CODEX,GROUP_ALTERNATING",,swp_KAG_only,,,Anti Armor,,,,,,,,,,7
+Light Blaster,swp_lightblaster,2,,3000,600,,300,,0,15,10,,,,ENERGY,400,,0,1,,,,,,,,1000,,,,,,SYSTEM,,,,,,,,,,,,,,,22.25
+Seeker Flares,swp_burstflare_wpn,2,,,500,,10,400,,,,,0,,ENERGY,0,0,0,0.1,3,0.1,90,90,0,0,,300,200,7,1,,,SYSTEM,,,,,,,,,,,,,,,38
+Super Mini-Blaster Cannon,swp_microblaster_f,1,,600,450,,20,10,0,45,6,,,,ENERGY,15,,0,0.15,1,,5,5,0,0,,800,,,,,,SYSTEM,,,,,General,,,,,,,,,,4364
+Light Devastator Cannon,swp_devastator_f,1,,800,600,,50,,40,12,10,,,,HIGH_EXPLOSIVE,25,,0,1.5,6,0.1,5,15,5,5,,1000,,,100,,,"SYSTEM,PD,PD_ALSO",,,,,Anti Fighter (Area),,,,,"Each shell has a fuse set to explode at a random distance, resulting in a barrage that's increasingly more deadly at closer ranges.
+
+Will target missiles if no other targets are in range.",,,,,7.4
+Mini Vulcan Cannon,swp_mini_vulcan,0,,50,250,,25,,1,75,2,,,,FRAGMENTATION,1,,0,1.05,20,0.05,0,15,1,15,,800,,,10,,,"SYSTEM,PD",,,,,Point Defense,,,,,,,,,,1016
+Swarmer SRM Launcher,swp_swarmer_f,1,,250,1000,,75,,5,50,4,4,0.1,,HIGH_EXPLOSIVE,0,,0,5,2,0.2,0,0,0,0,,300,100,5,50,,,"SYSTEM,ANTI_FTR, DO_NOT_AIM,DO_NOT_CONSERVE",,,,,Anti Small Craft,Fast,Excellent,,,,,,,,10
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Camoflaged Turret,swp_boss_camoturret,2,,7000,900,,400,200,10,25,24,,,,ENERGY,500,,0,0.75,1,,0,5,1,10,,900,,,75,,,SYSTEM,,swp_CT_only,Unique,,General,,,,,,,,,,7.5
+Canister Cannon,swp_boss_canistercannon,1,,10000,3000,,3000,,250,3,50,,,,HIGH_EXPLOSIVE,3500,,0,7,1,,3,3,0,1,,500,,,1000,1,,"SYSTEM,GROUP_ALTERNATING",,swp_CC_only,Unique,,Long Range Support,,,,,Splits into %s submunitions that deal %s high explosive damage each.,20 | 200,,,,4364
+Canister Cannon Sub,swp_boss_canister_sub,1,,,800,,200,,20,0,,,,,HIGH_EXPLOSIVE,,,0,1,1,,0,0,0,0,,700,,,40,,,SYSTEM,,,,,,,,,,,,,,,4.75
+Flux Shunt Blaster,swp_boss_roycocannon,3,,9000,600,,240,240,240,20,50,,,,ENERGY,20,,0,0.7,4,0.1,0,0,0,0,,1000,,,100,,,SYSTEM,restricted,swp_FSC_only,Unknown,,General,,,Narrow adjustments,,Damage per shot scales between %s and %s depending on current flux level (up to %s).,20 | 220 | 6000,,,,4366
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+swp_excelsior_auxglow,swp_excelsior_auxglow,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4368
+swp_falx_lwing,swp_falx_lwing,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4367
+swp_falx_rwing,swp_falx_rwing,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,4368
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Wrath Cannon,swp_arcade_wraithii,4,,8000,800,,100,,50,50,8,,,,ENERGY,100,,0,1,1,,5,10,1,10,,800,,,100,,,SYSTEM,,,,,,,,,,,,,,,420
+Mega Pulse,swp_arcade_megapulse,4,,40000,4000,,3500,,1000,0,40,,,,KINETIC,10000,,0,20,1,,0,0,0,0,,600,,,2000,,,"SYSTEM, DO_NOT_AIM",,,,,,,,,,,,,,,420.1
+Zero Beam,swp_arcade_zerobeam,4,,100000,1000,,1500,,100,1,100,,,,ENERGY,2000,,1.7,18,32,0.045,0,0,0,0,,1500,,,500,,,SYSTEM,,,,,,,,,,,,,,,420.2
+Zero Cannon,swp_arcade_zerocannon,4,,10000,1500,,150,,50,0,15,,,,ENERGY,300,,0,0.5,4,0.15,0,0,0,0,,1000,,,100,,,"SYSTEM, DO_NOT_AIM",,,,,,,,,,,,,,,420.3
+Zero Annihilator,swp_arcade_zeroannihilator,4,,50000,5000,,275,400,50,0,30,,,,ENERGY,50,,1.2,22,66,0.05,90,90,0,0,,1000,,,25,,,"SYSTEM, DO_NOT_AIM",,,,,,,,,,,,,,,420.4
+Zero Annihilator,swp_arcade_zeroannihilator2,4,,50000,5000,,275,500,50,0,40,,,,ENERGY,50,,1.8,22,66,0.05,90,90,0,0,,1000,,,25,,,"SYSTEM, DO_NOT_AIM",,,,,,,,,,,,,,,420.4
+Zero Annihilator,swp_arcade_zeroannihilator3,4,,50000,5000,,275,600,50,0,50,,,,ENERGY,50,,2.4,22,66,0.05,90,90,0,0,,1000,,,25,,,"SYSTEM, DO_NOT_AIM",,,,,,,,,,,,,,,420.4
+Omega Orb,swp_arcade_omegaorb,4,,10000,3000,,500,,50,0,,,,,ENERGY,100,,0,2,1,0,0,0,0,0,,1000,,,100,,,SYSTEM,,,,,,,,,,,,,,,420.5
+Zero Orb,swp_arcade_omegaorb2,4,,10000,1500,,500,,50,30,10,,,,ENERGY,100,,0,2,1,0,0,0,0,0,,1000,,,100,,,SYSTEM,,,,,,,,,,,,,,,420.6
+Super EMP,swp_arcade_empbomb,4,,50000,1,,1,100000,0,0,,1,,,ENERGY,0,,3,3,1,,0,0,0,0,,5000,,,100,,,"SYSTEM, PD",,,,,,,,,,,,,,,420.7
+Mega Shield,swp_arcade_godmode,4,,50000,1,,1,,0,0,,1,,,ENERGY,0,,0,3,1,,0,0,0,0,,5000,,,100,,,"SYSTEM, PD",,,,,,,,,,,,,,,420.8
+swp_arcade_zeroglow,swp_arcade_zeroglow,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,420.9
+swp_arcade_superzeroglow,swp_arcade_superzeroglow,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,420.9
+swp_arcade_hyperzeroglow,swp_arcade_hyperzeroglow,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,420.9
