@@ -9,9 +9,9 @@
 <difficulty>normal</difficulty>
 <gameDate z="2">
 <secondsPerDay>10.0</secondsPerDay>
-<timestamp>-55328544685000</timestamp>
+<timestamp>-55317914925000</timestamp>
 </gameDate>
-<saveDate z="3">2022-01-27 01:28:08.714 UTC</saveDate>
+<saveDate z="3">2022-01-27 13:42:58.617 UTC</saveDate>
 <allModsEverEnabled z="4">
 <com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="5">
 <spec z="6">
@@ -865,70 +865,104 @@ This should be compatible with all mods and doesn't require a new game.</desc>
 </dependencies>
 </spec>
 </com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="190">
+<spec z="191">
+<id>sun_starship_legends</id>
+<desc>Gives your ships and their crew personality as their reputations grow, granting traits that influence the ship's performance.</desc>
+<name>Starship Legends</name>
+<gameVersion z="192">
+<major>0.95</major>
+<minor>1</minor>
+<patch>4</patch>
+<string>0.95.1a-RC4</string>
+</gameVersion>
+<versionInfo z="193">
+<major>1</major>
+<minor>5</minor>
+<patch>6</patch>
+<string>1.5.6</string>
+</versionInfo>
+<author>Sundog</author>
+<path>D:\Maya\Starsector\starsector-core\..\mods\Starship Legends</path>
+<dirName>Starship Legends</dirName>
+<totalConversion>false</totalConversion>
+<utility>false</utility>
+<modPluginClassName>starship_legends.ModPlugin</modPluginClassName>
+<fullOverrides z="194"></fullOverrides>
+<jars z="195">
+<st>jars/StarshipLegends.jar</st>
+</jars>
+<requiredMemoryMB>0</requiredMemoryMB>
+<dependencies z="196"></dependencies>
+</spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
 </allModsEverEnabled>
-<enabledMods z="190">
-<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="191">
+<enabledMods z="197">
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="198">
 <spec ref="6"></spec>
 </com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
-<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="192">
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="199">
 <spec ref="13"></spec>
 </com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
-<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="193">
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="200">
 <spec ref="20"></spec>
 </com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
-<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="194">
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="201">
 <spec ref="27"></spec>
 </com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
-<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="195">
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="202">
 <spec ref="38"></spec>
 </com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
-<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="196">
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="203">
 <spec ref="47"></spec>
 </com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
-<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="197">
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="204">
 <spec ref="58"></spec>
 </com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
-<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="198">
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="205">
 <spec ref="65"></spec>
 </com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
-<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="199">
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="206">
 <spec ref="72"></spec>
 </com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
-<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="200">
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="207">
 <spec ref="79"></spec>
 </com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
-<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="201">
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="208">
 <spec ref="86"></spec>
 </com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
-<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="202">
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="209">
 <spec ref="95"></spec>
 </com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
-<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="203">
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="210">
 <spec ref="104"></spec>
 </com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
-<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="204">
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="211">
 <spec ref="115"></spec>
 </com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
-<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="205">
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="212">
 <spec ref="126"></spec>
 </com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
-<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="206">
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="213">
 <spec ref="137"></spec>
 </com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
-<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="207">
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="214">
 <spec ref="144"></spec>
 </com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
-<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="208">
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="215">
 <spec ref="155"></spec>
 </com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
-<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="209">
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="216">
 <spec ref="162"></spec>
 </com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
-<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="210">
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="217">
 <spec ref="171"></spec>
 </com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
-<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="211">
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="218">
 <spec ref="178"></spec>
+</com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
+<com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="219">
+<spec ref="191"></spec>
 </com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData>
 </enabledMods>
 </SaveGameData>
