@@ -1,4 +1,25 @@
+0.8.3
+- Fixed Camisette not spawning
+- Fixed Silvys Renham contact reputation check
+- Angora
+	- Flux capacity reduced from 5500 to 5000
+	
+
+0.8.2
+- Added Angora-class Phase Destroyer
+- Added Camisette-class Freighter
+- Percale
+	- DP reduced from 30 to 28
+- EMP Relay system
+	- Increased range of emp arcs from 300 to 500
+	- Increased emp amount from 100 to 200
+- Updated some code for better compatibility	
+- Updated ScalarTech phase cloak to new mechanics
+	- ScalarTech phase cloak speed loss bottoms out at 50%
+	
+
 0.8.1
+- Adds Silvys Renham contact in Charkha
 - Twine
 	- Increased hp from 300 to 600
 	- Increased armor from 20 to 30

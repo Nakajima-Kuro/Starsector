@@ -1,9 +1,0 @@
-{
-    "id": "bonomel_skilledup",
-    "name": "SkilledUp",
-    "author": "bonomel",
-    "utility": "false",
-    "version": "1.1",
-    "description": "Raises the maximum player level to 103 and gradually lowers the required XP per level after level 35.",
-    "gameVersion": "0.9.1a"
-}
