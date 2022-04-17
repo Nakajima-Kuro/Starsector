@@ -3,15 +3,15 @@
 <portraitName>graphics/portraits/portrait18.png</portraitName>
 <characterName>Nakajima Kuro</characterName>
 <saveFileVersion>0.5</saveFileVersion>
-<characterLevel>10</characterLevel>
+<characterLevel>12</characterLevel>
 <compressed>false</compressed>
 <isIronMode>false</isIronMode>
 <difficulty>normal</difficulty>
 <gameDate z="2">
 <secondsPerDay>10.0</secondsPerDay>
-<timestamp>-55580780210000</timestamp>
+<timestamp>-55519755534000</timestamp>
 </gameDate>
-<saveDate z="3">2022-04-16 10:23:26.829 UTC</saveDate>
+<saveDate z="3">2022-04-17 04:30:28.159 UTC</saveDate>
 <allModsEverEnabled z="4">
 <com.fs.starfarer.campaign.ModAndPluginData_-EnabledModData z="5">
 <spec z="6">
